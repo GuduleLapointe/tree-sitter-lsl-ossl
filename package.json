@@ -1,0 +1,29 @@
+{
+  "name": "tree-sitter-lsl-ossl",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for LSL (Linden Scripting Language) and OSSL (OpenSimulator Scripting Language)",
+  "main": "bindings/node",
+  "scripts": {
+    "build": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "files": [
+    "grammar.js",
+    "binding.gyp",
+    "prebuilds/**",
+    "bindings/node/*",
+    "src/**"
+  ],
+  "keywords": ["parser", "tree-sitter", "lsl", "ossl", "secondlife", "opensimulator"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuduleLapointe/tree-sitter-lsl-ossl.git"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.lsl",
+      "file-types": ["lsl", "ossl"]
+    }
+  ]
+}
