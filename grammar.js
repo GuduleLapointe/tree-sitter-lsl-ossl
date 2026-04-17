@@ -35,14 +35,14 @@ module.exports = grammar({
 		// Control flow
 		// -----------------
 		if_statement: ($) =>
-			seq(
+			prec.right(seq(
 				"if",
 				"(",
 				$.expression,
 				")",
-				$.block,
-				optional(seq("else", $.block)),
-			),
+				$._body,
+				optional(seq("else", $._body)),
+			)),
 
 		for_statement: ($) =>
 			seq(
@@ -54,10 +54,13 @@ module.exports = grammar({
 				";",
 				optional($.expression),
 				")",
-				$.block,
+				$._body,
 			),
 
-		while_statement: ($) => seq("while", "(", $.expression, ")", $.block),
+		while_statement: ($) => seq("while", "(", $.expression, ")", $._body),
+
+		// Body of if/for/while: either a block {} or a single statement
+		_body: ($) => choice($.block, $._statement),
 
 		return_statement: ($) => seq("return", optional($.expression), ";"),
 
@@ -97,11 +100,23 @@ module.exports = grammar({
 				$.binary_expression,
 				$.cast_expression,
 				$.call_expression,
+				$.vector_literal,
+				$.rotation_literal,
+				$.list_literal,
 				$.constant,
 				$.identifier,
 				$.number,
 				$.string,
 			),
+
+		vector_literal: ($) =>
+			seq("<", $.expression, ",", $.expression, ",", $.expression, ">"),
+
+		rotation_literal: ($) =>
+			seq("<", $.expression, ",", $.expression, ",", $.expression, ",", $.expression, ">"),
+
+		list_literal: ($) =>
+			seq("[", optional(seq($.expression, repeat(seq(",", $.expression)))), "]"),
 
 		assignment: ($) => seq($.identifier, "=", $.expression),
 
@@ -113,19 +128,11 @@ module.exports = grammar({
 				seq(
 					$.expression,
 					choice(
-						"+",
-						"-",
-						"*",
-						"/",
-						"%",
-						"==",
-						"!=",
-						"<",
-						">",
-						"<=",
-						">=",
-						"&&",
-						"||",
+						"+", "-", "*", "/", "%",
+						"==", "!=", "<", ">", "<=", ">=",
+						"&&", "||",
+						"&", "|", "^", "~",
+						"<<", ">>",
 					),
 					$.expression,
 				),
