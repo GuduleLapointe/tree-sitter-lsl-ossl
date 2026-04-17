@@ -110,6 +110,14 @@
           {
             "type": "identifier",
             "named": true
+          },
+          {
+            "type": "lsl_function",
+            "named": true
+          },
+          {
+            "type": "ossl_function",
+            "named": true
           }
         ]
       }
@@ -421,6 +429,16 @@
         }
       ]
     }
+  },
+  {
+    "type": "lsl_function",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "ossl_function",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "parameter",
@@ -740,6 +758,14 @@
     "named": false
   },
   {
+    "type": "CHANGED_OWNER",
+    "named": false
+  },
+  {
+    "type": "CHANGED_REGION_START",
+    "named": false
+  },
+  {
     "type": "FALSE",
     "named": false
   },
@@ -869,6 +895,22 @@
     "named": false
   },
   {
+    "type": "llDetectedKey",
+    "named": false
+  },
+  {
+    "type": "llRegionSayTo",
+    "named": false
+  },
+  {
+    "type": "llResetScript",
+    "named": false
+  },
+  {
+    "type": "llWhisper",
+    "named": false
+  },
+  {
     "type": "money",
     "named": false
   },
@@ -882,6 +924,10 @@
   },
   {
     "type": "on_rez",
+    "named": false
+  },
+  {
+    "type": "osTeleportAgent",
     "named": false
   },
   {

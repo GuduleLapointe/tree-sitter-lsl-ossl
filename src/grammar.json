@@ -731,8 +731,21 @@
           "type": "FIELD",
           "name": "function",
           "content": {
-            "type": "SYMBOL",
-            "name": "identifier"
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "SYMBOL",
+                "name": "lsl_function"
+              },
+              {
+                "type": "SYMBOL",
+                "name": "ossl_function"
+              },
+              {
+                "type": "SYMBOL",
+                "name": "identifier"
+              }
+            ]
           }
         },
         {
@@ -869,6 +882,44 @@
         {
           "type": "STRING",
           "value": "PI_BY_TWO"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_REGION_START"
+        }
+      ]
+    },
+    "lsl_function": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "llDetectedKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llRegionSayTo"
+        },
+        {
+          "type": "STRING",
+          "value": "llResetScript"
+        },
+        {
+          "type": "STRING",
+          "value": "llWhisper"
+        }
+      ]
+    },
+    "ossl_function": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "osTeleportAgent"
         }
       ]
     },

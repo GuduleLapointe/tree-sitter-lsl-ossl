@@ -140,7 +140,7 @@ module.exports = grammar({
 
 		call_expression: ($) =>
 			seq(
-				field("function", $.identifier),
+				field("function", choice($.lsl_function, $.ossl_function, $.identifier)),
 				"(",
 				optional($.argument_list),
 				")",
@@ -174,6 +174,28 @@ module.exports = grammar({
 				"PI",
 				"TWO_PI",
 				"PI_BY_TWO",
+				// Change flags
+				"CHANGED_OWNER",
+				"CHANGED_REGION_START",
+			),
+
+		// -----------------
+		// LSL built-in functions (ll* prefix)
+		// -----------------
+		lsl_function: ($) =>
+			choice(
+				"llDetectedKey",
+				"llRegionSayTo",
+				"llResetScript",
+				"llWhisper",
+			),
+
+		// -----------------
+		// OSSL built-in functions (os* prefix)
+		// -----------------
+		ossl_function: ($) =>
+			choice(
+				"osTeleportAgent",
 			),
 
 		event_handler: ($) =>
