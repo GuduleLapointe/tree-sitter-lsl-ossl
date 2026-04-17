@@ -15,7 +15,7 @@
     "src/**"
   ],
   "keywords": ["parser", "tree-sitter", "lsl", "ossl", "secondlife", "opensimulator"],
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GuduleLapointe/tree-sitter-lsl-ossl.git"

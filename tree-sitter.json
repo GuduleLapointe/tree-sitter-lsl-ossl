@@ -9,7 +9,7 @@
   ],
   "metadata": {
     "version": "0.1.0",
-    "license": "MIT",
+    "license": "GPL-3.0-only",
     "description": "Tree-sitter grammar for LSL/OSSL",
     "authors": [
       {
