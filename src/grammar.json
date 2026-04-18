@@ -853,35 +853,439 @@
       "members": [
         {
           "type": "STRING",
-          "value": "TRUE"
+          "value": "ACTIVE"
         },
         {
           "type": "STRING",
-          "value": "FALSE"
+          "value": "AGENT"
         },
         {
           "type": "STRING",
-          "value": "NULL_KEY"
+          "value": "AGENT_ALWAYS_RUN"
         },
         {
           "type": "STRING",
-          "value": "ZERO_VECTOR"
+          "value": "AGENT_ATTACHMENTS"
         },
         {
           "type": "STRING",
-          "value": "ZERO_ROTATION"
+          "value": "AGENT_AUTOMATED"
         },
         {
           "type": "STRING",
-          "value": "PI"
+          "value": "AGENT_AUTOPILOT"
         },
         {
           "type": "STRING",
-          "value": "TWO_PI"
+          "value": "AGENT_AWAY"
         },
         {
           "type": "STRING",
-          "value": "PI_BY_TWO"
+          "value": "AGENT_BUSY"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_BY_LEGACY_NAME"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_BY_USERNAME"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_CROUCHING"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_FLOATING_VIA_SCRIPTED_ATTACHMENT"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_FLYING"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_IN_AIR"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_LIST_PARCEL"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_LIST_PARCEL_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_LIST_REGION"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_MOUSELOOK"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_ON_OBJECT"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_SCRIPTED"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_SITTING"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_TYPING"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_WALKING"
+        },
+        {
+          "type": "STRING",
+          "value": "ALL_SIDES"
+        },
+        {
+          "type": "STRING",
+          "value": "ANIM_ON"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_AVATAR_CENTER"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_BACK"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_BELLY"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_CHEST"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_CHIN"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_FACE_JAW"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_FACE_LEAR"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_FACE_LEYE"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_FACE_REAR"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_FACE_REYE"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_FACE_TONGUE"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_GROIN"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HEAD"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HIND_LFOOT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HIND_RFOOT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_BOTTOM"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_BOTTOM_LEFT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_BOTTOM_RIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_CENTER_1"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_CENTER_2"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_TOP_CENTER"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_TOP_LEFT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_HUD_TOP_RIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LEAR"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LEFT_PEC"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LEYE"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LFOOT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LHAND"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LHAND_RING1"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LHIP"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LLARM"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LLLEG"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LSHOULDER"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LUARM"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LULEG"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_LWING"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_MOUTH"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_NECK"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_NOSE"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_PELVIS"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_REAR"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_REYE"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RFOOT"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RHAND"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RHAND_RING1"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RHIP"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RIGHT_PEC"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RLARM"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RLLEG"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RSHOULDER"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RUARM"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RULEG"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_RWING"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_TAIL_BASE"
+        },
+        {
+          "type": "STRING",
+          "value": "ATTACH_TAIL_TIP"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_ACTIVE"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_BEHINDNESS_ANGLE"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_BEHINDNESS_LAG"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_DISTANCE"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_LAG"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_LOCKED"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_OFFSET"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_OFFSET_X"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_OFFSET_Y"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_OFFSET_Z"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_THRESHOLD"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_X"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_Y"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_FOCUS_Z"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_PITCH"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_POSITION"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_POSITION_LAG"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_POSITION_LOCKED"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_POSITION_THRESHOLD"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_POSITION_X"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_POSITION_Y"
+        },
+        {
+          "type": "STRING",
+          "value": "CAMERA_POSITION_Z"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_ALLOWED_DROP"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_ANIMATION"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_INVENTORY"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_LINK"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_MEDIA"
         },
         {
           "type": "STRING",
@@ -889,7 +1293,2231 @@
         },
         {
           "type": "STRING",
+          "value": "CHANGED_REGION"
+        },
+        {
+          "type": "STRING",
           "value": "CHANGED_REGION_START"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_RENDER_MATERIAL"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_SHAPE"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_TELEPORT"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_TEXTURE"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_ACCOUNT_FOR_SKIPPED_FRAMES"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_AVOIDANCE_MODE"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_DESIRED_SPEED"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_DESIRED_TURN_SPEED"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_LENGTH"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_MAX_ACCEL"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_MAX_DECEL"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_MAX_SPEED"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_MAX_TURN_RADIUS"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_ORIENTATION"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_RADIUS"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_STAY_WITHIN_PARCEL"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_TYPE_A"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_TYPE_B"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_TYPE_C"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_TYPE_D"
+        },
+        {
+          "type": "STRING",
+          "value": "CHARACTER_TYPE_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_BUY"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_DISABLED"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_IGNORE"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_OPEN"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_OPEN_MEDIA"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_PAY"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_PLAY"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_SIT"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_TOUCH"
+        },
+        {
+          "type": "STRING",
+          "value": "CLICK_ACTION_ZOOM"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_BACK"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_DOWN"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_FWD"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_LBUTTON"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_LEFT"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_ML_LBUTTON"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_RIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_ROT_LEFT"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_ROT_RIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTROL_UP"
+        },
+        {
+          "type": "STRING",
+          "value": "DAMAGEABLE"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_BORN"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_NAME"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_ONLINE"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_PAYINFO"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_RATING"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_SIM_POS"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_SIM_RATING"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_SIM_RELEASE"
+        },
+        {
+          "type": "STRING",
+          "value": "DATA_SIM_STATUS"
+        },
+        {
+          "type": "STRING",
+          "value": "DEG_TO_RAD"
+        },
+        {
+          "type": "STRING",
+          "value": "EOF"
+        },
+        {
+          "type": "STRING",
+          "value": "ERR_GENERIC"
+        },
+        {
+          "type": "STRING",
+          "value": "ERR_MALFORMED_PARAMS"
+        },
+        {
+          "type": "STRING",
+          "value": "ERR_PARCEL_PERMISSIONS"
+        },
+        {
+          "type": "STRING",
+          "value": "ERR_RUNTIME_PERMISSIONS"
+        },
+        {
+          "type": "STRING",
+          "value": "ERR_THROTTLED"
+        },
+        {
+          "type": "STRING",
+          "value": "ESTATE_ACCESS_ALLOWED_AGENT_ADD"
+        },
+        {
+          "type": "STRING",
+          "value": "ESTATE_ACCESS_ALLOWED_AGENT_REMOVE"
+        },
+        {
+          "type": "STRING",
+          "value": "ESTATE_ACCESS_ALLOWED_GROUP_ADD"
+        },
+        {
+          "type": "STRING",
+          "value": "ESTATE_ACCESS_ALLOWED_GROUP_REMOVE"
+        },
+        {
+          "type": "STRING",
+          "value": "ESTATE_ACCESS_BANNED_AGENT_ADD"
+        },
+        {
+          "type": "STRING",
+          "value": "ESTATE_ACCESS_BANNED_AGENT_REMOVE"
+        },
+        {
+          "type": "STRING",
+          "value": "FALSE"
+        },
+        {
+          "type": "STRING",
+          "value": "FORCE_DIRECT_PATH"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_AXIS_LEFTX"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_AXIS_LEFTY"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_AXIS_RIGHTX"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_AXIS_RIGHTY"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_AXIS_TRIGGERLEFT"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_AXIS_TRIGGERRIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_A"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_B"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_BACK"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_DPAD_DOWN"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_DPAD_LEFT"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_DPAD_RIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_DPAD_UP"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_GUIDE"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_LEFTSHOULDER"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_LEFTSTICK"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_MISC1"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_PADDLE1"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_PADDLE2"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_PADDLE3"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_PADDLE4"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_RIGHTSHOULDER"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_RIGHTSTICK"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_START"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_TOUCHPAD"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_X"
+        },
+        {
+          "type": "STRING",
+          "value": "GAME_CONTROL_BUTTON_Y"
+        },
+        {
+          "type": "STRING",
+          "value": "HORIZONTAL"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_ACCEPT"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_BODY_MAXLENGTH"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_BODY_TRUNCATED"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_CUSTOM_HEADER"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_EXTENDED_ERROR"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_METHOD"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_MIMETYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_PRAGMA_NO_CACHE"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_USER_AGENT"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_VERBOSE_THROTTLE"
+        },
+        {
+          "type": "STRING",
+          "value": "HTTP_VERIFY_CERT"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_ALL"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_ANIMATION"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_BODYPART"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_CLOTHING"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_GESTURE"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_LANDMARK"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_MATERIAL"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_NOTECARD"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_OBJECT"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_SCRIPT"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_SETTING"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_SOUND"
+        },
+        {
+          "type": "STRING",
+          "value": "INVENTORY_TEXTURE"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_APPEND"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_ARRAY"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_DELETE"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_FALSE"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_INVALID"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_NULL"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_NUMBER"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_OBJECT"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_STRING"
+        },
+        {
+          "type": "STRING",
+          "value": "JSON_TRUE"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_CMD_PAUSE"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_CMD_PLAY"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_CMD_STOP"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_COMMAND"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_DATA"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_FORWARD"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_LOOP"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_MODE"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_PING_PONG"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_REVERSE"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_ROTATION"
+        },
+        {
+          "type": "STRING",
+          "value": "KFM_TRANSLATION"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_LEVEL"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_LOWER"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_NOISE"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_RAISE"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_REVERT"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_SMOOTH"
+        },
+        {
+          "type": "STRING",
+          "value": "LINK_ALL_CHILDREN"
+        },
+        {
+          "type": "STRING",
+          "value": "LINK_ALL_OTHERS"
+        },
+        {
+          "type": "STRING",
+          "value": "LINK_ROOT"
+        },
+        {
+          "type": "STRING",
+          "value": "LINK_SET"
+        },
+        {
+          "type": "STRING",
+          "value": "LINK_THIS"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_GEOMETRIC_MEAN"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_HARMONIC_MEAN"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_MAX"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_MEAN"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_MEDIAN"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_MIN"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_NUM_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_RANGE"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_STD_DEV"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_SUM"
+        },
+        {
+          "type": "STRING",
+          "value": "LIST_STAT_SUM_SQUARES"
+        },
+        {
+          "type": "STRING",
+          "value": "LOOP"
+        },
+        {
+          "type": "STRING",
+          "value": "MASK_BASE"
+        },
+        {
+          "type": "STRING",
+          "value": "MASK_EVERYONE"
+        },
+        {
+          "type": "STRING",
+          "value": "MASK_GROUP"
+        },
+        {
+          "type": "STRING",
+          "value": "MASK_NEXT"
+        },
+        {
+          "type": "STRING",
+          "value": "MASK_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "NAK"
+        },
+        {
+          "type": "STRING",
+          "value": "NULL_KEY"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_ATTACHED_POINT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_ATTACHED_SLOTS_AVAILABLE"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_DAMAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_DAMAGE_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_HEALTH"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_HOVER_HEIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_OMEGA"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_PATHFINDING_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_PHANTOM"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_PHYSICS"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_POS"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_RENDER_WEIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_RETURN_PARCEL"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_RETURN_PARCEL_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_RETURN_REGION"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_ROOT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_TEMP_ON_REZ"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_AVATAR"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_CHARACTER"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_EXCLUSION_VOLUME"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_LEGACY_LINKSET"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_MATERIAL_VOLUME"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_OTHER"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_STATIC_OBSTACLE"
+        },
+        {
+          "type": "STRING",
+          "value": "OPT_WALKABLE"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_ATTACH_MSG_ALL"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_ATTACH_MSG_INVERT_POINTS"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_ATTACH_MSG_OBJECT_CREATOR"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_ATTACH_MSG_SCRIPT_CREATOR"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_LISTEN_REGEX_MESSAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_LISTEN_REGEX_NAME"
+        },
+        {
+          "type": "STRING",
+          "value": "OSTPOBJ_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "OSTPOBJ_SETROT"
+        },
+        {
+          "type": "STRING",
+          "value": "OSTPOBJ_STOPATTARGET"
+        },
+        {
+          "type": "STRING",
+          "value": "OSTPOBJ_STOPONFAIL"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_CLAIMDATE"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_DWELL"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_CREATE_OBJECTS"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_DAMAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_FLY"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_SCRIPTS"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_TERRAFORM"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_AGENT"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_AUTO_ALIGN"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_DESC"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_LOOP"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_LOOP_SET"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_PAUSE"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_PLAY"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_SIZE"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_STOP"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_TEXTURE"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_TIME"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_UNLOAD"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_MEDIA_COMMAND_URL"
+        },
+        {
+          "type": "STRING",
+          "value": "PASS_ALWAYS"
+        },
+        {
+          "type": "STRING",
+          "value": "PASS_IF_NOT_HANDLED"
+        },
+        {
+          "type": "STRING",
+          "value": "PASS_NEVER"
+        },
+        {
+          "type": "STRING",
+          "value": "PASSIVE"
+        },
+        {
+          "type": "STRING",
+          "value": "PATROL_PAUSE_AT_WAYPOINTS"
+        },
+        {
+          "type": "STRING",
+          "value": "PAY_DEFAULT"
+        },
+        {
+          "type": "STRING",
+          "value": "PAY_HIDE"
+        },
+        {
+          "type": "STRING",
+          "value": "PAYMENT_INFO_ON_FILE"
+        },
+        {
+          "type": "STRING",
+          "value": "PAYMENT_INFO_USED"
+        },
+        {
+          "type": "STRING",
+          "value": "PERM_ALL"
+        },
+        {
+          "type": "STRING",
+          "value": "PERM_COPY"
+        },
+        {
+          "type": "STRING",
+          "value": "PERM_MODIFY"
+        },
+        {
+          "type": "STRING",
+          "value": "PERM_MOVE"
+        },
+        {
+          "type": "STRING",
+          "value": "PERM_TRANSFER"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_ATTACH"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_CHANGE_LINKS"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_CONTROL_CAMERA"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_DEBIT"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_OVERRIDE_ANIMATIONS"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_PRIVILEGED_LAND_ACCESS"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_RETURN_OBJECTS"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_SILENT_ESTATE_MANAGEMENT"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_TAKE_CONTROLS"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_TELEPORT"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_TRACK_CAMERA"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_TRIGGER_ANIMATION"
+        },
+        {
+          "type": "STRING",
+          "value": "PI"
+        },
+        {
+          "type": "STRING",
+          "value": "PI_BY_TWO"
+        },
+        {
+          "type": "STRING",
+          "value": "PING_PONG"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ALLOW_UNSIT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ALPHA_MODE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ALPHA_MODE_BLEND"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ALPHA_MODE_EMISSIVE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ALPHA_MODE_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ALPHA_MODE_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_BARK"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_BLOBS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_BRICKS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_BRIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_CHECKER"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_CONCRETE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_DARK"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_DISKS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_GRAVEL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_LARGETILE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_SHINY"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_SIDING"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_STONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_STUCCO"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_SUCTION"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_TILE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_WEAVE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_BUMP_WOOD"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_CLICK_ACTION"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_DAMAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_DESC"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_FLEXIBLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_FULLBRIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLOW"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLTF_ALPHA_MODE_BLEND"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLTF_ALPHA_MODE_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLTF_ALPHA_MODE_OPAQUE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLTF_BASE_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLTF_EMISSIVE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLTF_METALLIC_ROUGHNESS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_GLTF_NORMAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_HEALTH"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_HOLE_CIRCLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_HOLE_DEFAULT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_HOLE_SQUARE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_HOLE_TRIANGLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_LINK_TARGET"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_FLESH"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_GLASS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_LIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_METAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_PLASTIC"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_RUBBER"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_STONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MATERIAL_WOOD"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_ALT_IMAGE_ENABLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_AUTO_LOOP"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_AUTO_PLAY"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_AUTO_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_AUTO_ZOOM"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_CURRENT_URL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_FIRST_CLICK_INTERACT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_HEIGHT_PIXELS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_HOME_URL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_PERM_ANYONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_PERM_GROUP"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_PERM_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_PERM_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_PERMS_CONTROL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_PERMS_INTERACT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_WHITELIST"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_WHITELIST_ENABLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_WIDTH_PIXELS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_NAME"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_NORMAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_OMEGA"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PHANTOM"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PHYSICS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PHYSICS_SHAPE_CONVEX"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PHYSICS_SHAPE_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PHYSICS_SHAPE_PRIM"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PHYSICS_SHAPE_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_POINT_LIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_POS_LOCAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_POSITION"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PROJECTOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_REFLECTION_PROBE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_REFLECTION_PROBE_BOX"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_REFLECTION_PROBE_DYNAMIC"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_REFLECTION_PROBE_MIRROR"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_RENDER_MATERIAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ROT_LOCAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_ROTATION"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCRIPTED_SIT_ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_FLAG_ANIMESH"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_FLAG_INVERT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_FLAG_MIRROR"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_TYPE_CYLINDER"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_TYPE_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_TYPE_MESH"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_TYPE_PLANE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_TYPE_SPHERE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SCULPT_TYPE_TORUS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SHINY_HIGH"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SHINY_LOW"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SHINY_MEDIUM"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SHINY_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SIT_TARGET"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SIZE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SLICE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_SPECULAR"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TEMP_ON_REZ"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TEXGEN"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TEXGEN_DEFAULT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TEXGEN_PLANAR"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TEXT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TEXTURE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_BOX"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_CYLINDER"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_PRISM"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_RING"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_SCULPT"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_SPHERE"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_TORUS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_TYPE_TUBE"
+        },
+        {
+          "type": "STRING",
+          "value": "PROFILE_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PROFILE_SCRIPT_MEMORY"
+        },
+        {
+          "type": "STRING",
+          "value": "RAD_TO_DEG"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_DATA_FLAGS"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_DETECT_PHANTOM"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_GET_LINK_NUM"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_GET_NORMAL"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_GET_ROOT_KEY"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_MAX_HITS"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_REJECT_AGENTS"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_REJECT_LAND"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_REJECT_NONPHYSICAL"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_REJECT_PHYSICAL"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_REJECT_TYPES"
+        },
+        {
+          "type": "STRING",
+          "value": "RCERR_CAST_TIME_EXCEEDED"
+        },
+        {
+          "type": "STRING",
+          "value": "RCERR_SIM_PERF_LOW"
+        },
+        {
+          "type": "STRING",
+          "value": "RCERR_UNKNOWN"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_ALLOW_DAMAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_ALLOW_DIRECT_TELEPORT"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_BLOCK_FLY"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_BLOCK_TERRAFORM"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_DISABLE_COLLISIONS"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_DISABLE_PHYSICS"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_FIXED_SUN"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_RESTRICT_PUSHOBJECT"
+        },
+        {
+          "type": "STRING",
+          "value": "REGION_FLAG_SANDBOX"
+        },
+        {
+          "type": "STRING",
+          "value": "REMOTE_DATA_CHANNEL"
+        },
+        {
+          "type": "STRING",
+          "value": "REMOTE_DATA_REPLY"
+        },
+        {
+          "type": "STRING",
+          "value": "REMOTE_DATA_REQUEST"
+        },
+        {
+          "type": "STRING",
+          "value": "REVERSE"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_DAMAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_DAMAGE_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "ROTATE"
+        },
+        {
+          "type": "STRING",
+          "value": "SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "SCRIPTED"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_ACTIVE_SCRIPT_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_AGENT_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_AGENT_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_AGENT_UPDATES"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_AI_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_ASSET_DOWNLOADS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_ASSET_UPLOADS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_CHILD_AGENT_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_FRAME_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_IMAGE_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_IO_PUMP_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_NET_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_OTHER_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PACKETS_IN"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PACKETS_OUT"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PCT_CHARS_STEPPED"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PHYSICS_FPS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PHYSICS_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PHYSICS_OTHER_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PHYSICS_SHAPE_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_PHYSICS_STEP_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_SCRIPT_EPS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_SCRIPT_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_SCRIPT_RUN_PCT"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_SLEEP_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_SPARE_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "SIM_STAT_UNACKED_BYTES"
+        },
+        {
+          "type": "STRING",
+          "value": "SMOOTH"
+        },
+        {
+          "type": "STRING",
+          "value": "SQRT2"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_ACTIVE_PRIMS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_ACTIVE_SCRIPTS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_AGENT_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_AGENT_UPDATES"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_CHILD_AGENTS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_FRAME_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_IMAGE_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_IN_PACKETS_PER_SECOND"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_NET_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_OTHER_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_OUT_PACKETS_PER_SECOND"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_PENDING_DOWNLOADS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_PENDING_UPLOADS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_PHYSICS_FPS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_PHYSICS_MS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_ROOT_AGENTS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_SCRIPT_EPS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_SCRIPT_LPS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_SCRIPT_NPCS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_SCRIPT_TIME"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_SIM_FPS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_SIM_SLEEP"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_TIME_DILATION"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_TOTAL_PRIMS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATS_UNACKED_BYTES"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_BOUNDS_ERROR"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_INTERNAL_ERROR"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_MALFORMED_PARAMS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_NOT_FOUND"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_NOT_SUPPORTED"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_OK"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_PHANTOM"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_PHYSICS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_ROTATE_X"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_ROTATE_Y"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_ROTATE_Z"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_TYPE_MISMATCH"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_WHITELIST_FAILED"
+        },
+        {
+          "type": "STRING",
+          "value": "STRING_TRIM"
+        },
+        {
+          "type": "STRING",
+          "value": "STRING_TRIM_HEAD"
+        },
+        {
+          "type": "STRING",
+          "value": "STRING_TRIM_TAIL"
+        },
+        {
+          "type": "STRING",
+          "value": "TARGETED_EMAIL_OBJECT_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "TEXTURE_BLANK"
+        },
+        {
+          "type": "STRING",
+          "value": "TEXTURE_MEDIA"
+        },
+        {
+          "type": "STRING",
+          "value": "TEXTURE_PLYWOOD"
+        },
+        {
+          "type": "STRING",
+          "value": "TEXTURE_TRANSPARENT"
+        },
+        {
+          "type": "STRING",
+          "value": "TOUCH_INVALID_FACE"
+        },
+        {
+          "type": "STRING",
+          "value": "TOUCH_INVALID_TEXCOORD"
+        },
+        {
+          "type": "STRING",
+          "value": "TOUCH_INVALID_VECTOR"
+        },
+        {
+          "type": "STRING",
+          "value": "TRAVERSAL_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "TRUE"
+        },
+        {
+          "type": "STRING",
+          "value": "TWO_PI"
+        },
+        {
+          "type": "STRING",
+          "value": "TYPE_FLOAT"
+        },
+        {
+          "type": "STRING",
+          "value": "TYPE_INTEGER"
+        },
+        {
+          "type": "STRING",
+          "value": "TYPE_INVALID"
+        },
+        {
+          "type": "STRING",
+          "value": "TYPE_KEY"
+        },
+        {
+          "type": "STRING",
+          "value": "TYPE_ROTATION"
+        },
+        {
+          "type": "STRING",
+          "value": "TYPE_STRING"
+        },
+        {
+          "type": "STRING",
+          "value": "TYPE_VECTOR"
+        },
+        {
+          "type": "STRING",
+          "value": "URL_REQUEST_DENIED"
+        },
+        {
+          "type": "STRING",
+          "value": "URL_REQUEST_GRANTED"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_ANGULAR_DEFLECTION_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_ANGULAR_FRICTION_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_ANGULAR_MOTOR_DIRECTION"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_ANGULAR_MOTOR_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_BANKING_EFFICIENCY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_BANKING_MIX"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_BANKING_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_BUOYANCY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_BLOCK_INTERFERENCE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_CAMERA_DECOUPLED"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_HOVER_TERRAIN_ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_HOVER_UP_ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_HOVER_WATER_ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_LIMIT_MOTOR_UP"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_LIMIT_ROLL_ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_LOCK_HOVER_HEIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_LOCK_ROTATION"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_MOUSELOOK_BANK"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_MOUSELOOK_STEER"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_NO_DEFLECTION"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_NO_DEFLECTION_UP"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_NO_X"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_NO_Y"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_NO_Z"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_HOVER_EFFICIENCY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_HOVER_HEIGHT"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_HOVER_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_LINEAR_DEFLECTION_EFFICIENCY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_LINEAR_DEFLECTION_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_LINEAR_FRICTION_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_LINEAR_MOTOR_DIRECTION"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_LINEAR_MOTOR_OFFSET"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_LINEAR_MOTOR_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_RANGE_BLOCK"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_REFERENCE_FRAME"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_ROLL_FRAME"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_TYPE_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_VERTICAL_ATTRACTION_TIMESCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "VERTICAL"
+        },
+        {
+          "type": "STRING",
+          "value": "ZERO_ROTATION"
+        },
+        {
+          "type": "STRING",
+          "value": "ZERO_VECTOR"
         }
       ]
     },
@@ -898,7 +3526,1323 @@
       "members": [
         {
           "type": "STRING",
+          "value": "llAbs"
+        },
+        {
+          "type": "STRING",
+          "value": "llAcos"
+        },
+        {
+          "type": "STRING",
+          "value": "llAddToLandBanList"
+        },
+        {
+          "type": "STRING",
+          "value": "llAddToLandPassList"
+        },
+        {
+          "type": "STRING",
+          "value": "llAdjustDamage"
+        },
+        {
+          "type": "STRING",
+          "value": "llAgentInExperience"
+        },
+        {
+          "type": "STRING",
+          "value": "llAllowInventoryDrop"
+        },
+        {
+          "type": "STRING",
+          "value": "llAngleBetween"
+        },
+        {
+          "type": "STRING",
+          "value": "llApplyImpulse"
+        },
+        {
+          "type": "STRING",
+          "value": "llApplyRotationalImpulse"
+        },
+        {
+          "type": "STRING",
+          "value": "llAsin"
+        },
+        {
+          "type": "STRING",
+          "value": "llAtan2"
+        },
+        {
+          "type": "STRING",
+          "value": "llAttachToAvatar"
+        },
+        {
+          "type": "STRING",
+          "value": "llAttachToAvatarTemp"
+        },
+        {
+          "type": "STRING",
+          "value": "llAvatarOnLinkSitTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llAvatarOnSitTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llAxes2Rot"
+        },
+        {
+          "type": "STRING",
+          "value": "llAxisAngle2Rot"
+        },
+        {
+          "type": "STRING",
+          "value": "llBase64ToInteger"
+        },
+        {
+          "type": "STRING",
+          "value": "llBase64ToString"
+        },
+        {
+          "type": "STRING",
+          "value": "llBreakAllLinks"
+        },
+        {
+          "type": "STRING",
+          "value": "llBreakLink"
+        },
+        {
+          "type": "STRING",
+          "value": "llCastRay"
+        },
+        {
+          "type": "STRING",
+          "value": "llCeil"
+        },
+        {
+          "type": "STRING",
+          "value": "llChar"
+        },
+        {
+          "type": "STRING",
+          "value": "llClearCameraParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llClearLinkMedia"
+        },
+        {
+          "type": "STRING",
+          "value": "llClearPrimMedia"
+        },
+        {
+          "type": "STRING",
+          "value": "llCloseRemoteDataChannel"
+        },
+        {
+          "type": "STRING",
+          "value": "llCloud"
+        },
+        {
+          "type": "STRING",
+          "value": "llCollisionFilter"
+        },
+        {
+          "type": "STRING",
+          "value": "llCollisionSound"
+        },
+        {
+          "type": "STRING",
+          "value": "llCollisionSprite"
+        },
+        {
+          "type": "STRING",
+          "value": "llComputeHash"
+        },
+        {
+          "type": "STRING",
+          "value": "llCos"
+        },
+        {
+          "type": "STRING",
+          "value": "llCreateCharacter"
+        },
+        {
+          "type": "STRING",
+          "value": "llCreateKeyValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llCreateLink"
+        },
+        {
+          "type": "STRING",
+          "value": "llCSV2List"
+        },
+        {
+          "type": "STRING",
+          "value": "llDamage"
+        },
+        {
+          "type": "STRING",
+          "value": "llDataSizeKeyValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llDeleteCharacter"
+        },
+        {
+          "type": "STRING",
+          "value": "llDeleteKeyValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llDeleteSubList"
+        },
+        {
+          "type": "STRING",
+          "value": "llDeleteSubString"
+        },
+        {
+          "type": "STRING",
+          "value": "llDerezObject"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetachFromAvatar"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedDamage"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedGrab"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedGroup"
+        },
+        {
+          "type": "STRING",
           "value": "llDetectedKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedLinkNumber"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedName"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedOwner"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedRezzer"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedTouchBinormal"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedTouchFace"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedTouchNormal"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedTouchPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedTouchST"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedTouchUV"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedType"
+        },
+        {
+          "type": "STRING",
+          "value": "llDetectedVel"
+        },
+        {
+          "type": "STRING",
+          "value": "llDialog"
+        },
+        {
+          "type": "STRING",
+          "value": "llDie"
+        },
+        {
+          "type": "STRING",
+          "value": "llDumpList2String"
+        },
+        {
+          "type": "STRING",
+          "value": "llEdgeOfWorld"
+        },
+        {
+          "type": "STRING",
+          "value": "llEjectFromLand"
+        },
+        {
+          "type": "STRING",
+          "value": "llEmail"
+        },
+        {
+          "type": "STRING",
+          "value": "llEscapeURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llEuler2Rot"
+        },
+        {
+          "type": "STRING",
+          "value": "llEvade"
+        },
+        {
+          "type": "STRING",
+          "value": "llExecCharacterCmd"
+        },
+        {
+          "type": "STRING",
+          "value": "llFabs"
+        },
+        {
+          "type": "STRING",
+          "value": "llFindNotecardTextSync"
+        },
+        {
+          "type": "STRING",
+          "value": "llFleeFrom"
+        },
+        {
+          "type": "STRING",
+          "value": "llFloor"
+        },
+        {
+          "type": "STRING",
+          "value": "llForceMouselook"
+        },
+        {
+          "type": "STRING",
+          "value": "llFrand"
+        },
+        {
+          "type": "STRING",
+          "value": "llGenerateKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAccel"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAgentInfo"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAgentLanguage"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAgentList"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAgentSize"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAlpha"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAndResetTime"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAnimationList"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAnimationOverride"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAttached"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAttachedList"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetAttachedListFiltered"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetBoundingBox"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetCameraAspect"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetCameraFOV"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetCameraPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetCameraRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetCenterOfMass"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetClosestNavPoint"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetColor"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetCreator"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetDate"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetDayLength"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetDayOffset"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetDisplayName"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetEnergy"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetEnv"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetExperienceDetails"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetExperienceErrorMessage"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetForce"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetFreeMemory"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetFreeURLs"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetGeometricCenter"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetGMTclock"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetHealth"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetHTTPHeader"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryAcquireTime"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryCreator"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryDesc"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryName"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryNumber"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryPermMask"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetInventoryType"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLandOwnerAt"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLinkMedia"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLinkName"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLinkNumber"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLinkNumberOfSides"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLinkPrimitiveParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLinkSitFlags"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetListEntryType"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetListLength"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLocalPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetLocalRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetMass"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetMassMKS"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetMaxScaleFactor"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetMemoryLimit"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetMinScaleFactor"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetMoonDirection"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetMoonRotation"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetNextEmail"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetNotecardLine"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetNotecardLineSync"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetNumberOfNotecardLines"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetNumberOfPrims"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetNumberOfSides"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectAnimationNames"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectDesc"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectDetails"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectLinkKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectMass"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectName"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectPermMask"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectPrimCount"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetOmega"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetOwner"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetOwnerKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetParcelDetails"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetParcelFlags"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetParcelMaxPrims"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetParcelMusicURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetParcelPrimCount"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetParcelPrimOwners"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetPermissions"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetPermissionsKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetPhysicsMaterial"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetPrimMediaParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionAgentCount"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionCorner"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionDayLength"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionDayOffset"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionFlags"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionFPS"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionMoonDirection"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionMoonRotation"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionName"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionSunDirection"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionSunRotation"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionTimeDilation"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRegionTimeOfDay"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRenderMaterial"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRootPosition"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRootRotation"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetScale"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetScriptName"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetScriptState"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetSimStats"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetSimulatorHostname"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetSPMaxMemory"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetStartParameter"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetStartString"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetStaticPath"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetStatus"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetSubString"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetSunDirection"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetSunRotation"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTextureOffset"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTextureRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTextureScale"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTime"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTimeOfDay"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTimestamp"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetTorque"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetUnixTime"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetUsedMemory"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetUsername"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetVel"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetVisualParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetWallclock"
+        },
+        {
+          "type": "STRING",
+          "value": "llGiveAgentInventory"
+        },
+        {
+          "type": "STRING",
+          "value": "llGiveInventory"
+        },
+        {
+          "type": "STRING",
+          "value": "llGiveInventoryList"
+        },
+        {
+          "type": "STRING",
+          "value": "llGiveMoney"
+        },
+        {
+          "type": "STRING",
+          "value": "llGodLikeRezObject"
+        },
+        {
+          "type": "STRING",
+          "value": "llGround"
+        },
+        {
+          "type": "STRING",
+          "value": "llGroundContour"
+        },
+        {
+          "type": "STRING",
+          "value": "llGroundNormal"
+        },
+        {
+          "type": "STRING",
+          "value": "llGroundRepel"
+        },
+        {
+          "type": "STRING",
+          "value": "llGroundSlope"
+        },
+        {
+          "type": "STRING",
+          "value": "llHash"
+        },
+        {
+          "type": "STRING",
+          "value": "llHMAC"
+        },
+        {
+          "type": "STRING",
+          "value": "llHTTPRequest"
+        },
+        {
+          "type": "STRING",
+          "value": "llHTTPResponse"
+        },
+        {
+          "type": "STRING",
+          "value": "llInsertString"
+        },
+        {
+          "type": "STRING",
+          "value": "llInstantMessage"
+        },
+        {
+          "type": "STRING",
+          "value": "llIntegerToBase64"
+        },
+        {
+          "type": "STRING",
+          "value": "llIsFriend"
+        },
+        {
+          "type": "STRING",
+          "value": "llIsLinkGLTFMaterial"
+        },
+        {
+          "type": "STRING",
+          "value": "llJson2List"
+        },
+        {
+          "type": "STRING",
+          "value": "llJsonSetValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llKey2Name"
+        },
+        {
+          "type": "STRING",
+          "value": "llKeyCountKeyValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llKeysKeyValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinear2sRGB"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkAdjustSoundVolume"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkParticleSystem"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkPlaySound"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataAvailable"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataCountFound"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataCountKeys"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataDeleteFound"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataDeleteProtected"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataFindKeys"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataListKeys"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataReadProtected"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataReset"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinksetDataWriteProtected"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkSetSoundQueueing"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkSetSoundRadius"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkSitTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkStopSound"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2CSV"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2Float"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2Integer"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2Json"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2Key"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2List"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2ListSlice"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2ListStrided"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2Rot"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2String"
+        },
+        {
+          "type": "STRING",
+          "value": "llList2Vector"
+        },
+        {
+          "type": "STRING",
+          "value": "llListen"
+        },
+        {
+          "type": "STRING",
+          "value": "llListenControl"
+        },
+        {
+          "type": "STRING",
+          "value": "llListenRemove"
+        },
+        {
+          "type": "STRING",
+          "value": "llListFindList"
+        },
+        {
+          "type": "STRING",
+          "value": "llListFindListNext"
+        },
+        {
+          "type": "STRING",
+          "value": "llListFindStrided"
+        },
+        {
+          "type": "STRING",
+          "value": "llListInsertList"
+        },
+        {
+          "type": "STRING",
+          "value": "llListRandomize"
+        },
+        {
+          "type": "STRING",
+          "value": "llListReplaceList"
+        },
+        {
+          "type": "STRING",
+          "value": "llListSort"
+        },
+        {
+          "type": "STRING",
+          "value": "llListSortStrided"
+        },
+        {
+          "type": "STRING",
+          "value": "llListStatistics"
+        },
+        {
+          "type": "STRING",
+          "value": "llLoadURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llLog"
+        },
+        {
+          "type": "STRING",
+          "value": "llLog10"
+        },
+        {
+          "type": "STRING",
+          "value": "llLookAt"
+        },
+        {
+          "type": "STRING",
+          "value": "llLoopSound"
+        },
+        {
+          "type": "STRING",
+          "value": "llLoopSoundMaster"
+        },
+        {
+          "type": "STRING",
+          "value": "llLoopSoundSlave"
+        },
+        {
+          "type": "STRING",
+          "value": "llMakeExplosion"
+        },
+        {
+          "type": "STRING",
+          "value": "llMakeFire"
+        },
+        {
+          "type": "STRING",
+          "value": "llMakeFountain"
+        },
+        {
+          "type": "STRING",
+          "value": "llMakeSmoke"
+        },
+        {
+          "type": "STRING",
+          "value": "llManageEstateAccess"
+        },
+        {
+          "type": "STRING",
+          "value": "llMapBeacon"
+        },
+        {
+          "type": "STRING",
+          "value": "llMapDestination"
+        },
+        {
+          "type": "STRING",
+          "value": "llMatchGroup"
+        },
+        {
+          "type": "STRING",
+          "value": "llMD5String"
+        },
+        {
+          "type": "STRING",
+          "value": "llMessageLinked"
+        },
+        {
+          "type": "STRING",
+          "value": "llMinEventDelay"
+        },
+        {
+          "type": "STRING",
+          "value": "llModifyLand"
+        },
+        {
+          "type": "STRING",
+          "value": "llModPow"
+        },
+        {
+          "type": "STRING",
+          "value": "llMoveToTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llName2Key"
+        },
+        {
+          "type": "STRING",
+          "value": "llNavigateTo"
+        },
+        {
+          "type": "STRING",
+          "value": "llOffsetTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "llOpenFloater"
+        },
+        {
+          "type": "STRING",
+          "value": "llOpenRemoteDataChannel"
+        },
+        {
+          "type": "STRING",
+          "value": "llOrd"
+        },
+        {
+          "type": "STRING",
+          "value": "llOverMyLand"
+        },
+        {
+          "type": "STRING",
+          "value": "llOwnerSay"
+        },
+        {
+          "type": "STRING",
+          "value": "llParcelMediaCommandList"
+        },
+        {
+          "type": "STRING",
+          "value": "llParcelMediaQuery"
+        },
+        {
+          "type": "STRING",
+          "value": "llParseString2List"
+        },
+        {
+          "type": "STRING",
+          "value": "llParseStringKeepNulls"
+        },
+        {
+          "type": "STRING",
+          "value": "llPassCollisions"
+        },
+        {
+          "type": "STRING",
+          "value": "llPassTouches"
+        },
+        {
+          "type": "STRING",
+          "value": "llPatrolPoints"
+        },
+        {
+          "type": "STRING",
+          "value": "llPlaySound"
+        },
+        {
+          "type": "STRING",
+          "value": "llPlaySoundSlave"
+        },
+        {
+          "type": "STRING",
+          "value": "llPointAt"
+        },
+        {
+          "type": "STRING",
+          "value": "llPow"
+        },
+        {
+          "type": "STRING",
+          "value": "llPreloadSound"
+        },
+        {
+          "type": "STRING",
+          "value": "llPursue"
+        },
+        {
+          "type": "STRING",
+          "value": "llPushObject"
+        },
+        {
+          "type": "STRING",
+          "value": "llReadKeyValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llRefreshPrimURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llRegionSay"
         },
         {
           "type": "STRING",
@@ -906,11 +4850,711 @@
         },
         {
           "type": "STRING",
+          "value": "llReleaseCamera"
+        },
+        {
+          "type": "STRING",
+          "value": "llReleaseControls"
+        },
+        {
+          "type": "STRING",
+          "value": "llReleaseURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoteDataReply"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoteDataSetRegion"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoteLoadScript"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoteLoadScriptPin"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoveFromLandBanList"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoveFromLandPassList"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoveInventory"
+        },
+        {
+          "type": "STRING",
+          "value": "llRemoveVehicleFlags"
+        },
+        {
+          "type": "STRING",
+          "value": "llReplaceAgentEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "llReplaceEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "llReplaceSubString"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestAgentData"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestDisplayName"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestExperiencePermissions"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestInventoryData"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestPermissions"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestSecureURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestSimulatorData"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestUserKey"
+        },
+        {
+          "type": "STRING",
+          "value": "llRequestUsername"
+        },
+        {
+          "type": "STRING",
+          "value": "llResetAnimationOverride"
+        },
+        {
+          "type": "STRING",
+          "value": "llResetLandBanList"
+        },
+        {
+          "type": "STRING",
+          "value": "llResetLandPassList"
+        },
+        {
+          "type": "STRING",
+          "value": "llResetOtherScript"
+        },
+        {
+          "type": "STRING",
           "value": "llResetScript"
         },
         {
           "type": "STRING",
+          "value": "llResetTime"
+        },
+        {
+          "type": "STRING",
+          "value": "llReturnObjectsByID"
+        },
+        {
+          "type": "STRING",
+          "value": "llReturnObjectsByOwner"
+        },
+        {
+          "type": "STRING",
+          "value": "llRezAtRoot"
+        },
+        {
+          "type": "STRING",
+          "value": "llRezObject"
+        },
+        {
+          "type": "STRING",
+          "value": "llRezObjectWithParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llRot2Angle"
+        },
+        {
+          "type": "STRING",
+          "value": "llRot2Axis"
+        },
+        {
+          "type": "STRING",
+          "value": "llRot2Euler"
+        },
+        {
+          "type": "STRING",
+          "value": "llRot2Fwd"
+        },
+        {
+          "type": "STRING",
+          "value": "llRot2Left"
+        },
+        {
+          "type": "STRING",
+          "value": "llRot2Up"
+        },
+        {
+          "type": "STRING",
+          "value": "llRotateTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "llRotBetween"
+        },
+        {
+          "type": "STRING",
+          "value": "llRotLookAt"
+        },
+        {
+          "type": "STRING",
+          "value": "llRotTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llRotTargetRemove"
+        },
+        {
+          "type": "STRING",
+          "value": "llRound"
+        },
+        {
+          "type": "STRING",
+          "value": "llSameGroup"
+        },
+        {
+          "type": "STRING",
+          "value": "llSay"
+        },
+        {
+          "type": "STRING",
+          "value": "llScaleByFactor"
+        },
+        {
+          "type": "STRING",
+          "value": "llScaleTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "llScriptDanger"
+        },
+        {
+          "type": "STRING",
+          "value": "llScriptProfiler"
+        },
+        {
+          "type": "STRING",
+          "value": "llSendRemoteData"
+        },
+        {
+          "type": "STRING",
+          "value": "llSensor"
+        },
+        {
+          "type": "STRING",
+          "value": "llSensorRemove"
+        },
+        {
+          "type": "STRING",
+          "value": "llSensorRepeat"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetAgentEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetAgentRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetAlpha"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetAngularVelocity"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetAnimationOverride"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetBuoyancy"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetCameraAtOffset"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetCameraEyeOffset"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetCameraParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetClickAction"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetColor"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetContentType"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetDamage"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetForce"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetForceAndTorque"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetGroundTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetHoverHeight"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetInventoryPermMask"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetKeyframedMotion"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkAlpha"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkCamera"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkColor"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkGLTFOverrides"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkMedia"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkPrimitiveParamsFast"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkRenderMaterial"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkSitFlags"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkTextureAnim"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLocalRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetMemoryLimit"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetObjectDesc"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetObjectName"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetObjectPermMask"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetParcelForSale"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetParcelMusicURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetPayPrice"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetPhysicsMaterial"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetPrimMediaParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetPrimURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetRegionPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetRemoteScriptAccessPin"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetRenderMaterial"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetRot"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetScale"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetScriptState"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetSculptAnim"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetSitText"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetStatus"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetText"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetTextureAnim"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetTimerEvent"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetTorque"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetTouchText"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetVehicleFlags"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetVehicleFloatParam"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetVehicleRotationParam"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetVehicleType"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetVehicleVectorParam"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetVelocity"
+        },
+        {
+          "type": "STRING",
+          "value": "llSHA1String"
+        },
+        {
+          "type": "STRING",
+          "value": "llSHA256String"
+        },
+        {
+          "type": "STRING",
+          "value": "llShout"
+        },
+        {
+          "type": "STRING",
+          "value": "llSignRSA"
+        },
+        {
+          "type": "STRING",
+          "value": "llSin"
+        },
+        {
+          "type": "STRING",
+          "value": "llSitOnLink"
+        },
+        {
+          "type": "STRING",
+          "value": "llSitTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llSleep"
+        },
+        {
+          "type": "STRING",
+          "value": "llSound"
+        },
+        {
+          "type": "STRING",
+          "value": "llSoundPreload"
+        },
+        {
+          "type": "STRING",
+          "value": "llSqrt"
+        },
+        {
+          "type": "STRING",
+          "value": "llStartAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "llStartObjectAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "llStopAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "llStopHover"
+        },
+        {
+          "type": "STRING",
+          "value": "llStopLookAt"
+        },
+        {
+          "type": "STRING",
+          "value": "llStopMoveToTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llStopObjectAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "llStopPointAt"
+        },
+        {
+          "type": "STRING",
+          "value": "llStringLength"
+        },
+        {
+          "type": "STRING",
+          "value": "llStringToBase64"
+        },
+        {
+          "type": "STRING",
+          "value": "llStringTrim"
+        },
+        {
+          "type": "STRING",
+          "value": "llSubStringIndex"
+        },
+        {
+          "type": "STRING",
+          "value": "llTakeCamera"
+        },
+        {
+          "type": "STRING",
+          "value": "llTakeControls"
+        },
+        {
+          "type": "STRING",
+          "value": "llTan"
+        },
+        {
+          "type": "STRING",
+          "value": "llTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llTargetedEmail"
+        },
+        {
+          "type": "STRING",
+          "value": "llTargetOmega"
+        },
+        {
+          "type": "STRING",
+          "value": "llTargetRemove"
+        },
+        {
+          "type": "STRING",
+          "value": "llTeleportAgent"
+        },
+        {
+          "type": "STRING",
+          "value": "llTeleportAgentGlobalCoords"
+        },
+        {
+          "type": "STRING",
+          "value": "llTeleportAgentHome"
+        },
+        {
+          "type": "STRING",
+          "value": "llTextBox"
+        },
+        {
+          "type": "STRING",
+          "value": "llToLower"
+        },
+        {
+          "type": "STRING",
+          "value": "llToUpper"
+        },
+        {
+          "type": "STRING",
+          "value": "llTransferLindenDollars"
+        },
+        {
+          "type": "STRING",
+          "value": "llTransferOwnership"
+        },
+        {
+          "type": "STRING",
+          "value": "llTriggerSound"
+        },
+        {
+          "type": "STRING",
+          "value": "llTriggerSoundLimited"
+        },
+        {
+          "type": "STRING",
+          "value": "llUnescapeURL"
+        },
+        {
+          "type": "STRING",
+          "value": "llUnSit"
+        },
+        {
+          "type": "STRING",
+          "value": "llUpdateCharacter"
+        },
+        {
+          "type": "STRING",
+          "value": "llUpdateKeyValue"
+        },
+        {
+          "type": "STRING",
+          "value": "llVecDist"
+        },
+        {
+          "type": "STRING",
+          "value": "llVecMag"
+        },
+        {
+          "type": "STRING",
+          "value": "llVecNorm"
+        },
+        {
+          "type": "STRING",
+          "value": "llVerifyRSA"
+        },
+        {
+          "type": "STRING",
+          "value": "llVolumeDetect"
+        },
+        {
+          "type": "STRING",
+          "value": "llWanderWithin"
+        },
+        {
+          "type": "STRING",
+          "value": "llWater"
+        },
+        {
+          "type": "STRING",
           "value": "llWhisper"
+        },
+        {
+          "type": "STRING",
+          "value": "llWind"
+        },
+        {
+          "type": "STRING",
+          "value": "llWorldPosToHUD"
+        },
+        {
+          "type": "STRING",
+          "value": "llXorBase64"
+        },
+        {
+          "type": "STRING",
+          "value": "llXorBase64Strings"
+        },
+        {
+          "type": "STRING",
+          "value": "llXorBase64StringsCorrect"
         }
       ]
     },
@@ -919,7 +5563,395 @@
       "members": [
         {
           "type": "STRING",
+          "value": "osAddAgentToGroup"
+        },
+        {
+          "type": "STRING",
+          "value": "osAdjustSoundVolume"
+        },
+        {
+          "type": "STRING",
+          "value": "osAvatarPlayAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "osAvatarStopAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "osCauseDamage"
+        },
+        {
+          "type": "STRING",
+          "value": "osCauseHealing"
+        },
+        {
+          "type": "STRING",
+          "value": "osClearInertia"
+        },
+        {
+          "type": "STRING",
+          "value": "osCollisionSound"
+        },
+        {
+          "type": "STRING",
+          "value": "osDie"
+        },
+        {
+          "type": "STRING",
+          "value": "osDropAttachment"
+        },
+        {
+          "type": "STRING",
+          "value": "osDropAttachmentAt"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceAttachToAvatar"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceAttachToAvatarFromInventory"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceAttachToOtherAvatarFromInventory"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceBreakAllLinks"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceBreakLink"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceCreateLink"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceDetachFromAvatar"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceDropAttachment"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceDropAttachmentAt"
+        },
+        {
+          "type": "STRING",
+          "value": "osForceOtherSit"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetParcelDetails"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetParcelID"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetParcelIDs"
+        },
+        {
+          "type": "STRING",
+          "value": "osGiveLinkInventory"
+        },
+        {
+          "type": "STRING",
+          "value": "osGiveLinkInventoryList"
+        },
+        {
+          "type": "STRING",
+          "value": "osGrantScriptPermissions"
+        },
+        {
+          "type": "STRING",
+          "value": "osLinkParticleSystem"
+        },
+        {
+          "type": "STRING",
+          "value": "osListSortInPlace"
+        },
+        {
+          "type": "STRING",
+          "value": "osListSortInPlaceStrided"
+        },
+        {
+          "type": "STRING",
+          "value": "osLocalTeleportAgent"
+        },
+        {
+          "type": "STRING",
+          "value": "osLoopSound"
+        },
+        {
+          "type": "STRING",
+          "value": "osLoopSoundMaster"
+        },
+        {
+          "type": "STRING",
+          "value": "osLoopSoundSlave"
+        },
+        {
+          "type": "STRING",
+          "value": "osMakeNotecard"
+        },
+        {
+          "type": "STRING",
+          "value": "osMessageAttachments"
+        },
+        {
+          "type": "STRING",
+          "value": "osMessageObject"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcLoadAppearance"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcMoveTo"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcMoveToTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcPlayAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcRemove"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcSay"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcSayTo"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcSetProfileAbout"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcSetProfileImage"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcSetRot"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcShout"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcSit"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcStand"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcStopAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcStopMoveToTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcTouch"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcWhisper"
+        },
+        {
+          "type": "STRING",
+          "value": "osParcelJoin"
+        },
+        {
+          "type": "STRING",
+          "value": "osParcelSubdivide"
+        },
+        {
+          "type": "STRING",
+          "value": "osParticleSystem"
+        },
+        {
+          "type": "STRING",
+          "value": "osPlaySound"
+        },
+        {
+          "type": "STRING",
+          "value": "osPlaySoundSlave"
+        },
+        {
+          "type": "STRING",
+          "value": "osPreloadSound"
+        },
+        {
+          "type": "STRING",
+          "value": "osRegionNotice"
+        },
+        {
+          "type": "STRING",
+          "value": "osRemoveLinkInventory"
+        },
+        {
+          "type": "STRING",
+          "value": "osResetAllScripts"
+        },
+        {
+          "type": "STRING",
+          "value": "osRevokeScriptPermissions"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetContentType"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetEstateSunSettings"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetHealth"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetInertia"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetInertiaAsBox"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetInertiaAsCylinder"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetInertiaAsSphere"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetLinkSitActiveRange"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetLinkStandTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetOwnerSpeed"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetParcelDetails"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetParcelMediaURL"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetParcelMusicURL"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetParcelSIPAddress"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetPrimFloatOnWater"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetPrimitiveParams"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetProjectionParams"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetRegionSunSettings"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetRegionWaterHeight"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetSitActiveRange"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetSpeed"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetStandTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetSunParam"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetTerrainTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetTerrainTextureHeight"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetTerrainTextures"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetWindParam"
+        },
+        {
+          "type": "STRING",
+          "value": "osStopSound"
+        },
+        {
+          "type": "STRING",
           "value": "osTeleportAgent"
+        },
+        {
+          "type": "STRING",
+          "value": "osTeleportOwner"
+        },
+        {
+          "type": "STRING",
+          "value": "osTerrainFlush"
+        },
+        {
+          "type": "STRING",
+          "value": "osTriggerSound"
+        },
+        {
+          "type": "STRING",
+          "value": "osTriggerSoundLimited"
+        },
+        {
+          "type": "STRING",
+          "value": "osVolumeDetect"
         }
       ]
     },
@@ -961,27 +5993,19 @@
       "members": [
         {
           "type": "STRING",
-          "value": "state_entry"
+          "value": "at_rot_target"
         },
         {
           "type": "STRING",
-          "value": "state_exit"
+          "value": "at_target"
         },
         {
           "type": "STRING",
-          "value": "touch_start"
+          "value": "attach"
         },
         {
           "type": "STRING",
-          "value": "touch"
-        },
-        {
-          "type": "STRING",
-          "value": "touch_end"
-        },
-        {
-          "type": "STRING",
-          "value": "collision_start"
+          "value": "changed"
         },
         {
           "type": "STRING",
@@ -993,15 +6017,103 @@
         },
         {
           "type": "STRING",
+          "value": "collision_start"
+        },
+        {
+          "type": "STRING",
+          "value": "control"
+        },
+        {
+          "type": "STRING",
+          "value": "dataserver"
+        },
+        {
+          "type": "STRING",
+          "value": "email"
+        },
+        {
+          "type": "STRING",
+          "value": "experience_permissions"
+        },
+        {
+          "type": "STRING",
+          "value": "experience_permissions_denied"
+        },
+        {
+          "type": "STRING",
+          "value": "final_damage"
+        },
+        {
+          "type": "STRING",
+          "value": "game_control"
+        },
+        {
+          "type": "STRING",
+          "value": "http_request"
+        },
+        {
+          "type": "STRING",
+          "value": "http_response"
+        },
+        {
+          "type": "STRING",
+          "value": "land_collision"
+        },
+        {
+          "type": "STRING",
+          "value": "land_collision_end"
+        },
+        {
+          "type": "STRING",
+          "value": "land_collision_start"
+        },
+        {
+          "type": "STRING",
+          "value": "link_message"
+        },
+        {
+          "type": "STRING",
+          "value": "linkset_data"
+        },
+        {
+          "type": "STRING",
           "value": "listen"
         },
         {
           "type": "STRING",
-          "value": "timer"
+          "value": "money"
         },
         {
           "type": "STRING",
-          "value": "changed"
+          "value": "moving_end"
+        },
+        {
+          "type": "STRING",
+          "value": "moving_start"
+        },
+        {
+          "type": "STRING",
+          "value": "no_sensor"
+        },
+        {
+          "type": "STRING",
+          "value": "not_at_rot_target"
+        },
+        {
+          "type": "STRING",
+          "value": "not_at_target"
+        },
+        {
+          "type": "STRING",
+          "value": "object_rez"
+        },
+        {
+          "type": "STRING",
+          "value": "on_damage"
+        },
+        {
+          "type": "STRING",
+          "value": "on_death"
         },
         {
           "type": "STRING",
@@ -1009,11 +6121,11 @@
         },
         {
           "type": "STRING",
-          "value": "attach"
+          "value": "path_update"
         },
         {
           "type": "STRING",
-          "value": "dataserver"
+          "value": "remote_data"
         },
         {
           "type": "STRING",
@@ -1025,27 +6137,31 @@
         },
         {
           "type": "STRING",
-          "value": "no_sensor"
+          "value": "state_entry"
         },
         {
           "type": "STRING",
-          "value": "control"
+          "value": "state_exit"
         },
         {
           "type": "STRING",
-          "value": "money"
+          "value": "timer"
         },
         {
           "type": "STRING",
-          "value": "email"
+          "value": "touch"
         },
         {
           "type": "STRING",
-          "value": "http_response"
+          "value": "touch_end"
         },
         {
           "type": "STRING",
-          "value": "path_update"
+          "value": "touch_start"
+        },
+        {
+          "type": "STRING",
+          "value": "transaction_result"
         }
       ]
     },
