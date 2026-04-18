@@ -4502,6 +4502,10 @@
         },
         {
           "type": "STRING",
+          "value": "llJsonValueType"
+        },
+        {
+          "type": "STRING",
           "value": "llKey2Name"
         },
         {
@@ -5627,6 +5631,10 @@
         },
         {
           "type": "STRING",
+          "value": "osAESDecrypt"
+        },
+        {
+          "type": "STRING",
           "value": "osAESEncrypt"
         },
         {
@@ -5744,6 +5752,10 @@
         {
           "type": "STRING",
           "value": "osDrawText"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawTextText"
         },
         {
           "type": "STRING",
@@ -5920,6 +5932,14 @@
         {
           "type": "STRING",
           "value": "osGetLinkInventoryDesc"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkInventoryItemKey"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkInventoryItemKeys"
         },
         {
           "type": "STRING",
@@ -6111,6 +6131,10 @@
         },
         {
           "type": "STRING",
+          "value": "osLineTo"
+        },
+        {
+          "type": "STRING",
           "value": "osLinkParticleSystem"
         },
         {
@@ -6119,7 +6143,23 @@
         },
         {
           "type": "STRING",
+          "value": "osListAsFloat"
+        },
+        {
+          "type": "STRING",
           "value": "osListAsInteger"
+        },
+        {
+          "type": "STRING",
+          "value": "osListAsRotation"
+        },
+        {
+          "type": "STRING",
+          "value": "osListAsString"
+        },
+        {
+          "type": "STRING",
+          "value": "osListAsVector"
         },
         {
           "type": "STRING",
@@ -6359,6 +6399,10 @@
         },
         {
           "type": "STRING",
+          "value": "osRestartRegion"
+        },
+        {
+          "type": "STRING",
           "value": "osRevokeScriptPermissions"
         },
         {
@@ -6471,6 +6515,10 @@
         },
         {
           "type": "STRING",
+          "value": "osSetPenColour"
+        },
+        {
+          "type": "STRING",
           "value": "osSetPenSize"
         },
         {
@@ -6575,6 +6623,10 @@
         },
         {
           "type": "STRING",
+          "value": "osSunSetParam"
+        },
+        {
+          "type": "STRING",
           "value": "osTeleportAgent"
         },
         {
@@ -6616,6 +6668,14 @@
         {
           "type": "STRING",
           "value": "osWindActiveModelPluginName"
+        },
+        {
+          "type": "STRING",
+          "value": "osWindParamGet"
+        },
+        {
+          "type": "STRING",
+          "value": "osWindParamSet"
         }
       ]
     },

@@ -4547,6 +4547,10 @@
     "named": false
   },
   {
+    "type": "llJsonValueType",
+    "named": false
+  },
+  {
     "type": "llKey2Name",
     "named": false
   },
@@ -5703,6 +5707,10 @@
     "named": false
   },
   {
+    "type": "osAESDecrypt",
+    "named": false
+  },
+  {
     "type": "osAESEncrypt",
     "named": false
   },
@@ -5828,6 +5836,10 @@
   },
   {
     "type": "osDrawText",
+    "named": false
+  },
+  {
+    "type": "osDrawTextText",
     "named": false
   },
   {
@@ -6004,6 +6016,14 @@
   },
   {
     "type": "osGetLinkInventoryDesc",
+    "named": false
+  },
+  {
+    "type": "osGetLinkInventoryItemKey",
+    "named": false
+  },
+  {
+    "type": "osGetLinkInventoryItemKeys",
     "named": false
   },
   {
@@ -6195,6 +6215,10 @@
     "named": false
   },
   {
+    "type": "osLineTo",
+    "named": false
+  },
+  {
     "type": "osLinkParticleSystem",
     "named": false
   },
@@ -6203,7 +6227,23 @@
     "named": false
   },
   {
+    "type": "osListAsFloat",
+    "named": false
+  },
+  {
     "type": "osListAsInteger",
+    "named": false
+  },
+  {
+    "type": "osListAsRotation",
+    "named": false
+  },
+  {
+    "type": "osListAsString",
+    "named": false
+  },
+  {
+    "type": "osListAsVector",
     "named": false
   },
   {
@@ -6443,6 +6483,10 @@
     "named": false
   },
   {
+    "type": "osRestartRegion",
+    "named": false
+  },
+  {
     "type": "osRevokeScriptPermissions",
     "named": false
   },
@@ -6559,6 +6603,10 @@
     "named": false
   },
   {
+    "type": "osSetPenColour",
+    "named": false
+  },
+  {
     "type": "osSetPenSize",
     "named": false
   },
@@ -6659,6 +6707,10 @@
     "named": false
   },
   {
+    "type": "osSunSetParam",
+    "named": false
+  },
+  {
     "type": "osTeleportAgent",
     "named": false
   },
@@ -6700,6 +6752,14 @@
   },
   {
     "type": "osWindActiveModelPluginName",
+    "named": false
+  },
+  {
+    "type": "osWindParamGet",
+    "named": false
+  },
+  {
+    "type": "osWindParamSet",
     "named": false
   },
   {
