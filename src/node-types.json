@@ -3591,6 +3591,10 @@
     "named": false
   },
   {
+    "type": "llAdjustSoundVolume",
+    "named": false
+  },
+  {
     "type": "llAgentInExperience",
     "named": false
   },
@@ -3620,10 +3624,6 @@
   },
   {
     "type": "llAttachToAvatar",
-    "named": false
-  },
-  {
-    "type": "llAttachToAvatarTemp",
     "named": false
   },
   {
@@ -4007,10 +4007,6 @@
     "named": false
   },
   {
-    "type": "llGetEnv",
-    "named": false
-  },
-  {
     "type": "llGetEnvironment",
     "named": false
   },
@@ -4091,6 +4087,10 @@
     "named": false
   },
   {
+    "type": "llGetLinkKey",
+    "named": false
+  },
+  {
     "type": "llGetLinkMedia",
     "named": false
   },
@@ -4104,10 +4104,6 @@
   },
   {
     "type": "llGetLinkNumberOfSides",
-    "named": false
-  },
-  {
-    "type": "llGetLinkPrimitiveParams",
     "named": false
   },
   {
@@ -4195,10 +4191,6 @@
     "named": false
   },
   {
-    "type": "llGetObjectLinkKey",
-    "named": false
-  },
-  {
     "type": "llGetObjectMass",
     "named": false
   },
@@ -4268,6 +4260,10 @@
   },
   {
     "type": "llGetPrimMediaParams",
+    "named": false
+  },
+  {
+    "type": "llGetPrimitiveParams",
     "named": false
   },
   {
@@ -4547,31 +4543,11 @@
     "named": false
   },
   {
-    "type": "llLinkAdjustSoundVolume",
-    "named": false
-  },
-  {
-    "type": "llLinkParticleSystem",
-    "named": false
-  },
-  {
     "type": "llLinkPlaySound",
     "named": false
   },
   {
-    "type": "llLinkSetSoundQueueing",
-    "named": false
-  },
-  {
-    "type": "llLinkSetSoundRadius",
-    "named": false
-  },
-  {
     "type": "llLinkSitTarget",
-    "named": false
-  },
-  {
-    "type": "llLinkStopSound",
     "named": false
   },
   {
@@ -4587,11 +4563,11 @@
     "named": false
   },
   {
-    "type": "llLinksetDataDeleteFound",
+    "type": "llLinksetDataDelete",
     "named": false
   },
   {
-    "type": "llLinksetDataDeleteProtected",
+    "type": "llLinksetDataDeleteFound",
     "named": false
   },
   {
@@ -4603,7 +4579,7 @@
     "named": false
   },
   {
-    "type": "llLinksetDataReadProtected",
+    "type": "llLinksetDataRead",
     "named": false
   },
   {
@@ -4611,7 +4587,7 @@
     "named": false
   },
   {
-    "type": "llLinksetDataWriteProtected",
+    "type": "llLinksetDataWrite",
     "named": false
   },
   {
@@ -4836,6 +4812,10 @@
   },
   {
     "type": "llParseStringKeepNulls",
+    "named": false
+  },
+  {
+    "type": "llParticleSystem",
     "named": false
   },
   {
@@ -5231,10 +5211,6 @@
     "named": false
   },
   {
-    "type": "llSetLinkPrimitiveParamsFast",
-    "named": false
-  },
-  {
     "type": "llSetLinkRenderMaterial",
     "named": false
   },
@@ -5299,6 +5275,10 @@
     "named": false
   },
   {
+    "type": "llSetPrimitiveParams",
+    "named": false
+  },
+  {
     "type": "llSetRegionPos",
     "named": false
   },
@@ -5328,6 +5308,14 @@
   },
   {
     "type": "llSetSitText",
+    "named": false
+  },
+  {
+    "type": "llSetSoundQueueing",
+    "named": false
+  },
+  {
+    "type": "llSetSoundRadius",
     "named": false
   },
   {
@@ -5448,6 +5436,10 @@
   },
   {
     "type": "llStopPointAt",
+    "named": false
+  },
+  {
+    "type": "llStopSound",
     "named": false
   },
   {
@@ -5647,11 +5639,35 @@
     "named": false
   },
   {
+    "type": "osAESEncrypt",
+    "named": false
+  },
+  {
+    "type": "osAESEncryptTo",
+    "named": false
+  },
+  {
     "type": "osAddAgentToGroup",
     "named": false
   },
   {
     "type": "osAdjustSoundVolume",
+    "named": false
+  },
+  {
+    "type": "osAgentSaveAppearance",
+    "named": false
+  },
+  {
+    "type": "osAngleBetween",
+    "named": false
+  },
+  {
+    "type": "osApproxEquals",
+    "named": false
+  },
+  {
+    "type": "osAvatarName2Key",
     "named": false
   },
   {
@@ -5663,6 +5679,10 @@
     "named": false
   },
   {
+    "type": "osAvatarType",
+    "named": false
+  },
+  {
     "type": "osCauseDamage",
     "named": false
   },
@@ -5671,7 +5691,15 @@
     "named": false
   },
   {
+    "type": "osCheckODE",
+    "named": false
+  },
+  {
     "type": "osClearInertia",
+    "named": false
+  },
+  {
+    "type": "osClearObjectAnimations",
     "named": false
   },
   {
@@ -5679,7 +5707,67 @@
     "named": false
   },
   {
+    "type": "osConsoleCommand",
+    "named": false
+  },
+  {
+    "type": "osDetectedCountry",
+    "named": false
+  },
+  {
     "type": "osDie",
+    "named": false
+  },
+  {
+    "type": "osDrawEllipse",
+    "named": false
+  },
+  {
+    "type": "osDrawFilledEllipse",
+    "named": false
+  },
+  {
+    "type": "osDrawFilledPolygon",
+    "named": false
+  },
+  {
+    "type": "osDrawFilledRectangle",
+    "named": false
+  },
+  {
+    "type": "osDrawImage",
+    "named": false
+  },
+  {
+    "type": "osDrawLine",
+    "named": false
+  },
+  {
+    "type": "osDrawPolygon",
+    "named": false
+  },
+  {
+    "type": "osDrawRectangle",
+    "named": false
+  },
+  {
+    "type": "osDrawResetTransform",
+    "named": false
+  },
+  {
+    "type": "osDrawRotationTransform",
+    "named": false
+  },
+  {
+    "type": "osDrawScaleTransform",
+    "named": false
+  },
+  {
+    "type": "osDrawText",
+    "named": false
+  },
+  {
+    "type": "osDrawTranslationTransform",
     "named": false
   },
   {
@@ -5688,6 +5776,10 @@
   },
   {
     "type": "osDropAttachmentAt",
+    "named": false
+  },
+  {
+    "type": "osEjectFromGroup",
     "named": false
   },
   {
@@ -5731,7 +5823,187 @@
     "named": false
   },
   {
+    "type": "osFormatString",
+    "named": false
+  },
+  {
+    "type": "osGetAgentCountry",
+    "named": false
+  },
+  {
+    "type": "osGetAgentIP",
+    "named": false
+  },
+  {
+    "type": "osGetAgents",
+    "named": false
+  },
+  {
+    "type": "osGetApparentRegionTime",
+    "named": false
+  },
+  {
+    "type": "osGetApparentRegionTimeString",
+    "named": false
+  },
+  {
+    "type": "osGetApparentTime",
+    "named": false
+  },
+  {
+    "type": "osGetApparentTimeString",
+    "named": false
+  },
+  {
+    "type": "osGetAvatarHomeURI",
+    "named": false
+  },
+  {
+    "type": "osGetAvatarList",
+    "named": false
+  },
+  {
+    "type": "osGetCurrentSunHour",
+    "named": false
+  },
+  {
+    "type": "osGetDrawStringSize",
+    "named": false
+  },
+  {
+    "type": "osGetGender",
+    "named": false
+  },
+  {
+    "type": "osGetGridCustom",
+    "named": false
+  },
+  {
+    "type": "osGetGridGatekeeperURI",
+    "named": false
+  },
+  {
+    "type": "osGetGridHomeURI",
+    "named": false
+  },
+  {
+    "type": "osGetGridLoginURI",
+    "named": false
+  },
+  {
+    "type": "osGetGridName",
+    "named": false
+  },
+  {
+    "type": "osGetGridNick",
+    "named": false
+  },
+  {
+    "type": "osGetHealRate",
+    "named": false
+  },
+  {
+    "type": "osGetHealth",
+    "named": false
+  },
+  {
+    "type": "osGetInertiaData",
+    "named": false
+  },
+  {
+    "type": "osGetInventoryDesc",
+    "named": false
+  },
+  {
+    "type": "osGetInventoryItemKey",
+    "named": false
+  },
+  {
+    "type": "osGetInventoryItemKeys",
+    "named": false
+  },
+  {
+    "type": "osGetInventoryLastOwner",
+    "named": false
+  },
+  {
+    "type": "osGetInventoryName",
+    "named": false
+  },
+  {
+    "type": "osGetInventoryNames",
+    "named": false
+  },
+  {
+    "type": "osGetLastChangedEventKey",
+    "named": false
+  },
+  {
+    "type": "osGetLinkInventoryDesc",
+    "named": false
+  },
+  {
+    "type": "osGetLinkInventoryKey",
+    "named": false
+  },
+  {
+    "type": "osGetLinkInventoryName",
+    "named": false
+  },
+  {
+    "type": "osGetLinkInventoryNames",
+    "named": false
+  },
+  {
+    "type": "osGetLinkNumber",
+    "named": false
+  },
+  {
+    "type": "osGetLinkPrimitiveParams",
+    "named": false
+  },
+  {
+    "type": "osGetLinkSitActiveRange",
+    "named": false
+  },
+  {
+    "type": "osGetLinkStandTarget",
+    "named": false
+  },
+  {
+    "type": "osGetMapTexture",
+    "named": false
+  },
+  {
+    "type": "osGetNPCList",
+    "named": false
+  },
+  {
+    "type": "osGetNotecard",
+    "named": false
+  },
+  {
+    "type": "osGetNotecardLine",
+    "named": false
+  },
+  {
+    "type": "osGetNumberOfAttachments",
+    "named": false
+  },
+  {
+    "type": "osGetNumberOfNotecardLines",
+    "named": false
+  },
+  {
+    "type": "osGetPSTWallclock",
+    "named": false
+  },
+  {
     "type": "osGetParcelDetails",
+    "named": false
+  },
+  {
+    "type": "osGetParcelDwell",
     "named": false
   },
   {
@@ -5740,6 +6012,86 @@
   },
   {
     "type": "osGetParcelIDs",
+    "named": false
+  },
+  {
+    "type": "osGetPhysicsEngineName",
+    "named": false
+  },
+  {
+    "type": "osGetPhysicsEngineType",
+    "named": false
+  },
+  {
+    "type": "osGetPrimCount",
+    "named": false
+  },
+  {
+    "type": "osGetPrimitiveParams",
+    "named": false
+  },
+  {
+    "type": "osGetRegionMapTexture",
+    "named": false
+  },
+  {
+    "type": "osGetRegionSize",
+    "named": false
+  },
+  {
+    "type": "osGetRegionStats",
+    "named": false
+  },
+  {
+    "type": "osGetRezzingObject",
+    "named": false
+  },
+  {
+    "type": "osGetScriptEngineName",
+    "named": false
+  },
+  {
+    "type": "osGetSimulatorMemory",
+    "named": false
+  },
+  {
+    "type": "osGetSimulatorMemoryKB",
+    "named": false
+  },
+  {
+    "type": "osGetSimulatorVersion",
+    "named": false
+  },
+  {
+    "type": "osGetSitActiveRange",
+    "named": false
+  },
+  {
+    "type": "osGetSitTargetPos",
+    "named": false
+  },
+  {
+    "type": "osGetSitTargetRot",
+    "named": false
+  },
+  {
+    "type": "osGetSittingAvatarsCount",
+    "named": false
+  },
+  {
+    "type": "osGetStandTarget",
+    "named": false
+  },
+  {
+    "type": "osGetSunParam",
+    "named": false
+  },
+  {
+    "type": "osGetTerrainHeight",
+    "named": false
+  },
+  {
+    "type": "osGetWindParam",
     "named": false
   },
   {
@@ -5755,7 +6107,39 @@
     "named": false
   },
   {
+    "type": "osInviteToGroup",
+    "named": false
+  },
+  {
+    "type": "osIsNotValidNumber",
+    "named": false
+  },
+  {
+    "type": "osIsNpc",
+    "named": false
+  },
+  {
+    "type": "osIsUUID",
+    "named": false
+  },
+  {
+    "type": "osKey2Name",
+    "named": false
+  },
+  {
+    "type": "osKickAvatar",
+    "named": false
+  },
+  {
     "type": "osLinkParticleSystem",
+    "named": false
+  },
+  {
+    "type": "osList2Double",
+    "named": false
+  },
+  {
+    "type": "osListAsInteger",
     "named": false
   },
   {
@@ -5764,6 +6148,22 @@
   },
   {
     "type": "osListSortInPlaceStrided",
+    "named": false
+  },
+  {
+    "type": "osListenRegex",
+    "named": false
+  },
+  {
+    "type": "osLoadedCreationDate",
+    "named": false
+  },
+  {
+    "type": "osLoadedCreationID",
+    "named": false
+  },
+  {
+    "type": "osLoadedCreationTime",
     "named": false
   },
   {
@@ -5787,6 +6187,14 @@
     "named": false
   },
   {
+    "type": "osMatchString",
+    "named": false
+  },
+  {
+    "type": "osMax",
+    "named": false
+  },
+  {
     "type": "osMessageAttachments",
     "named": false
   },
@@ -5795,7 +6203,35 @@
     "named": false
   },
   {
+    "type": "osMin",
+    "named": false
+  },
+  {
+    "type": "osMovePen",
+    "named": false
+  },
+  {
+    "type": "osNpcCreate",
+    "named": false
+  },
+  {
+    "type": "osNpcGetOwner",
+    "named": false
+  },
+  {
+    "type": "osNpcGetPos",
+    "named": false
+  },
+  {
+    "type": "osNpcGetRot",
+    "named": false
+  },
+  {
     "type": "osNpcLoadAppearance",
+    "named": false
+  },
+  {
+    "type": "osNpcLookAt",
     "named": false
   },
   {
@@ -5812,6 +6248,10 @@
   },
   {
     "type": "osNpcRemove",
+    "named": false
+  },
+  {
+    "type": "osNpcSaveAppearance",
     "named": false
   },
   {
@@ -5863,6 +6303,10 @@
     "named": false
   },
   {
+    "type": "osOwnerSaveAppearance",
+    "named": false
+  },
+  {
     "type": "osParcelJoin",
     "named": false
   },
@@ -5887,7 +6331,15 @@
     "named": false
   },
   {
+    "type": "osRegexIsMatch",
+    "named": false
+  },
+  {
     "type": "osRegionNotice",
+    "named": false
+  },
+  {
+    "type": "osRegionRestart",
     "named": false
   },
   {
@@ -5895,7 +6347,35 @@
     "named": false
   },
   {
+    "type": "osReplaceAgentEnvironment",
+    "named": false
+  },
+  {
+    "type": "osReplaceParcelEnvironment",
+    "named": false
+  },
+  {
+    "type": "osReplaceRegionEnvironment",
+    "named": false
+  },
+  {
+    "type": "osReplaceString",
+    "named": false
+  },
+  {
+    "type": "osRequestSecureURL",
+    "named": false
+  },
+  {
+    "type": "osRequestURL",
+    "named": false
+  },
+  {
     "type": "osResetAllScripts",
+    "named": false
+  },
+  {
+    "type": "osResetEnvironment",
     "named": false
   },
   {
@@ -5903,11 +6383,59 @@
     "named": false
   },
   {
+    "type": "osRound",
+    "named": false
+  },
+  {
+    "type": "osSHA256",
+    "named": false
+  },
+  {
     "type": "osSetContentType",
     "named": false
   },
   {
+    "type": "osSetDynamicTextureData",
+    "named": false
+  },
+  {
+    "type": "osSetDynamicTextureDataBlend",
+    "named": false
+  },
+  {
+    "type": "osSetDynamicTextureDataBlendFace",
+    "named": false
+  },
+  {
+    "type": "osSetDynamicTextureDataFace",
+    "named": false
+  },
+  {
+    "type": "osSetDynamicTextureURL",
+    "named": false
+  },
+  {
+    "type": "osSetDynamicTextureURLBlend",
+    "named": false
+  },
+  {
+    "type": "osSetDynamicTextureURLBlendFace",
+    "named": false
+  },
+  {
     "type": "osSetEstateSunSettings",
+    "named": false
+  },
+  {
+    "type": "osSetFontName",
+    "named": false
+  },
+  {
+    "type": "osSetFontSize",
+    "named": false
+  },
+  {
+    "type": "osSetHealRate",
     "named": false
   },
   {
@@ -5959,6 +6487,18 @@
     "named": false
   },
   {
+    "type": "osSetPenCap",
+    "named": false
+  },
+  {
+    "type": "osSetPenColor",
+    "named": false
+  },
+  {
+    "type": "osSetPenSize",
+    "named": false
+  },
+  {
     "type": "osSetPrimFloatOnWater",
     "named": false
   },
@@ -5983,6 +6523,10 @@
     "named": false
   },
   {
+    "type": "osSetSoundRadius",
+    "named": false
+  },
+  {
     "type": "osSetSpeed",
     "named": false
   },
@@ -5992,6 +6536,10 @@
   },
   {
     "type": "osSetSunParam",
+    "named": false
+  },
+  {
+    "type": "osSetTerrainHeight",
     "named": false
   },
   {
@@ -6011,11 +6559,47 @@
     "named": false
   },
   {
+    "type": "osSlerp",
+    "named": false
+  },
+  {
     "type": "osStopSound",
     "named": false
   },
   {
+    "type": "osStringEndsWith",
+    "named": false
+  },
+  {
+    "type": "osStringIndexOf",
+    "named": false
+  },
+  {
+    "type": "osStringLastIndexOf",
+    "named": false
+  },
+  {
+    "type": "osStringRemove",
+    "named": false
+  },
+  {
+    "type": "osStringReplace",
+    "named": false
+  },
+  {
+    "type": "osStringStartsWith",
+    "named": false
+  },
+  {
+    "type": "osStringSubString",
+    "named": false
+  },
+  {
     "type": "osTeleportAgent",
+    "named": false
+  },
+  {
+    "type": "osTeleportObject",
     "named": false
   },
   {
@@ -6035,7 +6619,23 @@
     "named": false
   },
   {
+    "type": "osUnixTimeToTimestamp",
+    "named": false
+  },
+  {
+    "type": "osVecDistSquare",
+    "named": false
+  },
+  {
+    "type": "osVecMagSquare",
+    "named": false
+  },
+  {
     "type": "osVolumeDetect",
+    "named": false
+  },
+  {
+    "type": "osWindActiveModelPluginName",
     "named": false
   },
   {

@@ -3546,6 +3546,10 @@
         },
         {
           "type": "STRING",
+          "value": "llAdjustSoundVolume"
+        },
+        {
+          "type": "STRING",
           "value": "llAgentInExperience"
         },
         {
@@ -3575,10 +3579,6 @@
         {
           "type": "STRING",
           "value": "llAttachToAvatar"
-        },
-        {
-          "type": "STRING",
-          "value": "llAttachToAvatarTemp"
         },
         {
           "type": "STRING",
@@ -3962,10 +3962,6 @@
         },
         {
           "type": "STRING",
-          "value": "llGetEnv"
-        },
-        {
-          "type": "STRING",
           "value": "llGetEnvironment"
         },
         {
@@ -4046,6 +4042,10 @@
         },
         {
           "type": "STRING",
+          "value": "llGetLinkKey"
+        },
+        {
+          "type": "STRING",
           "value": "llGetLinkMedia"
         },
         {
@@ -4059,10 +4059,6 @@
         {
           "type": "STRING",
           "value": "llGetLinkNumberOfSides"
-        },
-        {
-          "type": "STRING",
-          "value": "llGetLinkPrimitiveParams"
         },
         {
           "type": "STRING",
@@ -4150,10 +4146,6 @@
         },
         {
           "type": "STRING",
-          "value": "llGetObjectLinkKey"
-        },
-        {
-          "type": "STRING",
           "value": "llGetObjectMass"
         },
         {
@@ -4219,6 +4211,10 @@
         {
           "type": "STRING",
           "value": "llGetPos"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetPrimitiveParams"
         },
         {
           "type": "STRING",
@@ -4502,14 +4498,6 @@
         },
         {
           "type": "STRING",
-          "value": "llLinkAdjustSoundVolume"
-        },
-        {
-          "type": "STRING",
-          "value": "llLinkParticleSystem"
-        },
-        {
-          "type": "STRING",
           "value": "llLinkPlaySound"
         },
         {
@@ -4526,11 +4514,11 @@
         },
         {
           "type": "STRING",
-          "value": "llLinksetDataDeleteFound"
+          "value": "llLinksetDataDelete"
         },
         {
           "type": "STRING",
-          "value": "llLinksetDataDeleteProtected"
+          "value": "llLinksetDataDeleteFound"
         },
         {
           "type": "STRING",
@@ -4542,7 +4530,7 @@
         },
         {
           "type": "STRING",
-          "value": "llLinksetDataReadProtected"
+          "value": "llLinksetDataRead"
         },
         {
           "type": "STRING",
@@ -4550,23 +4538,11 @@
         },
         {
           "type": "STRING",
-          "value": "llLinksetDataWriteProtected"
-        },
-        {
-          "type": "STRING",
-          "value": "llLinkSetSoundQueueing"
-        },
-        {
-          "type": "STRING",
-          "value": "llLinkSetSoundRadius"
+          "value": "llLinksetDataWrite"
         },
         {
           "type": "STRING",
           "value": "llLinkSitTarget"
-        },
-        {
-          "type": "STRING",
-          "value": "llLinkStopSound"
         },
         {
           "type": "STRING",
@@ -4791,6 +4767,10 @@
         {
           "type": "STRING",
           "value": "llParseStringKeepNulls"
+        },
+        {
+          "type": "STRING",
+          "value": "llParticleSystem"
         },
         {
           "type": "STRING",
@@ -5178,10 +5158,6 @@
         },
         {
           "type": "STRING",
-          "value": "llSetLinkPrimitiveParamsFast"
-        },
-        {
-          "type": "STRING",
           "value": "llSetLinkRenderMaterial"
         },
         {
@@ -5238,6 +5214,10 @@
         },
         {
           "type": "STRING",
+          "value": "llSetPrimitiveParams"
+        },
+        {
+          "type": "STRING",
           "value": "llSetPrimMediaParams"
         },
         {
@@ -5275,6 +5255,14 @@
         {
           "type": "STRING",
           "value": "llSetSitText"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetSoundQueueing"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetSoundRadius"
         },
         {
           "type": "STRING",
@@ -5403,6 +5391,10 @@
         {
           "type": "STRING",
           "value": "llStopPointAt"
+        },
+        {
+          "type": "STRING",
+          "value": "llStopSound"
         },
         {
           "type": "STRING",
@@ -5571,11 +5563,39 @@
         },
         {
           "type": "STRING",
+          "value": "osAESEncrypt"
+        },
+        {
+          "type": "STRING",
+          "value": "osAESEncryptTo"
+        },
+        {
+          "type": "STRING",
+          "value": "osAgentSaveAppearance"
+        },
+        {
+          "type": "STRING",
+          "value": "osAngleBetween"
+        },
+        {
+          "type": "STRING",
+          "value": "osApproxEquals"
+        },
+        {
+          "type": "STRING",
+          "value": "osAvatarName2Key"
+        },
+        {
+          "type": "STRING",
           "value": "osAvatarPlayAnimation"
         },
         {
           "type": "STRING",
           "value": "osAvatarStopAnimation"
+        },
+        {
+          "type": "STRING",
+          "value": "osAvatarType"
         },
         {
           "type": "STRING",
@@ -5587,7 +5607,15 @@
         },
         {
           "type": "STRING",
+          "value": "osCheckODE"
+        },
+        {
+          "type": "STRING",
           "value": "osClearInertia"
+        },
+        {
+          "type": "STRING",
+          "value": "osClearObjectAnimations"
         },
         {
           "type": "STRING",
@@ -5595,7 +5623,67 @@
         },
         {
           "type": "STRING",
+          "value": "osConsoleCommand"
+        },
+        {
+          "type": "STRING",
+          "value": "osDetectedCountry"
+        },
+        {
+          "type": "STRING",
           "value": "osDie"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawEllipse"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawFilledEllipse"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawFilledPolygon"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawFilledRectangle"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawImage"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawLine"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawPolygon"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawRectangle"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawResetTransform"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawRotationTransform"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawScaleTransform"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawText"
+        },
+        {
+          "type": "STRING",
+          "value": "osDrawTranslationTransform"
         },
         {
           "type": "STRING",
@@ -5604,6 +5692,10 @@
         {
           "type": "STRING",
           "value": "osDropAttachmentAt"
+        },
+        {
+          "type": "STRING",
+          "value": "osEjectFromGroup"
         },
         {
           "type": "STRING",
@@ -5647,7 +5739,183 @@
         },
         {
           "type": "STRING",
+          "value": "osFormatString"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetAgentCountry"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetAgentIP"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetAgents"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetApparentRegionTime"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetApparentRegionTimeString"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetApparentTime"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetApparentTimeString"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetAvatarHomeURI"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetAvatarList"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetCurrentSunHour"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetDrawStringSize"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetGender"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetGridCustom"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetGridGatekeeperURI"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetGridHomeURI"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetGridLoginURI"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetGridName"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetGridNick"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetHealRate"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetHealth"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetInertiaData"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetInventoryDesc"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetInventoryItemKey"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetInventoryItemKeys"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetInventoryLastOwner"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetInventoryName"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetInventoryNames"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLastChangedEventKey"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkInventoryDesc"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkInventoryKey"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkInventoryName"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkInventoryNames"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkNumber"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkPrimitiveParams"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkSitActiveRange"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkStandTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetMapTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetNotecard"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetNotecardLine"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetNPCList"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetNumberOfAttachments"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetNumberOfNotecardLines"
+        },
+        {
+          "type": "STRING",
           "value": "osGetParcelDetails"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetParcelDwell"
         },
         {
           "type": "STRING",
@@ -5656,6 +5924,90 @@
         {
           "type": "STRING",
           "value": "osGetParcelIDs"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetPhysicsEngineName"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetPhysicsEngineType"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetPrimCount"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetPrimitiveParams"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetPSTWallclock"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetRegionMapTexture"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetRegionSize"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetRegionStats"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetRezzingObject"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetScriptEngineName"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSimulatorMemory"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSimulatorMemoryKB"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSimulatorVersion"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSitActiveRange"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSitTargetPos"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSitTargetRot"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSittingAvatarsCount"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetStandTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetSunParam"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetTerrainHeight"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetWindParam"
         },
         {
           "type": "STRING",
@@ -5671,7 +6023,43 @@
         },
         {
           "type": "STRING",
+          "value": "osInviteToGroup"
+        },
+        {
+          "type": "STRING",
+          "value": "osIsNotValidNumber"
+        },
+        {
+          "type": "STRING",
+          "value": "osIsNpc"
+        },
+        {
+          "type": "STRING",
+          "value": "osIsUUID"
+        },
+        {
+          "type": "STRING",
+          "value": "osKey2Name"
+        },
+        {
+          "type": "STRING",
+          "value": "osKickAvatar"
+        },
+        {
+          "type": "STRING",
           "value": "osLinkParticleSystem"
+        },
+        {
+          "type": "STRING",
+          "value": "osList2Double"
+        },
+        {
+          "type": "STRING",
+          "value": "osListAsInteger"
+        },
+        {
+          "type": "STRING",
+          "value": "osListenRegex"
         },
         {
           "type": "STRING",
@@ -5680,6 +6068,18 @@
         {
           "type": "STRING",
           "value": "osListSortInPlaceStrided"
+        },
+        {
+          "type": "STRING",
+          "value": "osLoadedCreationDate"
+        },
+        {
+          "type": "STRING",
+          "value": "osLoadedCreationID"
+        },
+        {
+          "type": "STRING",
+          "value": "osLoadedCreationTime"
         },
         {
           "type": "STRING",
@@ -5703,6 +6103,14 @@
         },
         {
           "type": "STRING",
+          "value": "osMatchString"
+        },
+        {
+          "type": "STRING",
+          "value": "osMax"
+        },
+        {
+          "type": "STRING",
           "value": "osMessageAttachments"
         },
         {
@@ -5711,7 +6119,35 @@
         },
         {
           "type": "STRING",
+          "value": "osMin"
+        },
+        {
+          "type": "STRING",
+          "value": "osMovePen"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcCreate"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcGetOwner"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcGetPos"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcGetRot"
+        },
+        {
+          "type": "STRING",
           "value": "osNpcLoadAppearance"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcLookAt"
         },
         {
           "type": "STRING",
@@ -5728,6 +6164,10 @@
         {
           "type": "STRING",
           "value": "osNpcRemove"
+        },
+        {
+          "type": "STRING",
+          "value": "osNpcSaveAppearance"
         },
         {
           "type": "STRING",
@@ -5779,6 +6219,10 @@
         },
         {
           "type": "STRING",
+          "value": "osOwnerSaveAppearance"
+        },
+        {
+          "type": "STRING",
           "value": "osParcelJoin"
         },
         {
@@ -5803,7 +6247,15 @@
         },
         {
           "type": "STRING",
+          "value": "osRegexIsMatch"
+        },
+        {
+          "type": "STRING",
           "value": "osRegionNotice"
+        },
+        {
+          "type": "STRING",
+          "value": "osRegionRestart"
         },
         {
           "type": "STRING",
@@ -5811,7 +6263,35 @@
         },
         {
           "type": "STRING",
+          "value": "osReplaceAgentEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "osReplaceParcelEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "osReplaceRegionEnvironment"
+        },
+        {
+          "type": "STRING",
+          "value": "osReplaceString"
+        },
+        {
+          "type": "STRING",
+          "value": "osRequestSecureURL"
+        },
+        {
+          "type": "STRING",
+          "value": "osRequestURL"
+        },
+        {
+          "type": "STRING",
           "value": "osResetAllScripts"
+        },
+        {
+          "type": "STRING",
+          "value": "osResetEnvironment"
         },
         {
           "type": "STRING",
@@ -5819,11 +6299,55 @@
         },
         {
           "type": "STRING",
+          "value": "osRound"
+        },
+        {
+          "type": "STRING",
           "value": "osSetContentType"
         },
         {
           "type": "STRING",
+          "value": "osSetDynamicTextureData"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetDynamicTextureDataBlend"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetDynamicTextureDataBlendFace"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetDynamicTextureDataFace"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetDynamicTextureURL"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetDynamicTextureURLBlend"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetDynamicTextureURLBlendFace"
+        },
+        {
+          "type": "STRING",
           "value": "osSetEstateSunSettings"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetFontName"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetFontSize"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetHealRate"
         },
         {
           "type": "STRING",
@@ -5875,6 +6399,18 @@
         },
         {
           "type": "STRING",
+          "value": "osSetPenCap"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetPenColor"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetPenSize"
+        },
+        {
+          "type": "STRING",
           "value": "osSetPrimFloatOnWater"
         },
         {
@@ -5899,6 +6435,10 @@
         },
         {
           "type": "STRING",
+          "value": "osSetSoundRadius"
+        },
+        {
+          "type": "STRING",
           "value": "osSetSpeed"
         },
         {
@@ -5908,6 +6448,10 @@
         {
           "type": "STRING",
           "value": "osSetSunParam"
+        },
+        {
+          "type": "STRING",
+          "value": "osSetTerrainHeight"
         },
         {
           "type": "STRING",
@@ -5927,11 +6471,51 @@
         },
         {
           "type": "STRING",
+          "value": "osSHA256"
+        },
+        {
+          "type": "STRING",
+          "value": "osSlerp"
+        },
+        {
+          "type": "STRING",
           "value": "osStopSound"
         },
         {
           "type": "STRING",
+          "value": "osStringEndsWith"
+        },
+        {
+          "type": "STRING",
+          "value": "osStringIndexOf"
+        },
+        {
+          "type": "STRING",
+          "value": "osStringLastIndexOf"
+        },
+        {
+          "type": "STRING",
+          "value": "osStringRemove"
+        },
+        {
+          "type": "STRING",
+          "value": "osStringReplace"
+        },
+        {
+          "type": "STRING",
+          "value": "osStringStartsWith"
+        },
+        {
+          "type": "STRING",
+          "value": "osStringSubString"
+        },
+        {
+          "type": "STRING",
           "value": "osTeleportAgent"
+        },
+        {
+          "type": "STRING",
+          "value": "osTeleportObject"
         },
         {
           "type": "STRING",
@@ -5951,7 +6535,23 @@
         },
         {
           "type": "STRING",
+          "value": "osUnixTimeToTimestamp"
+        },
+        {
+          "type": "STRING",
+          "value": "osVecDistSquare"
+        },
+        {
+          "type": "STRING",
+          "value": "osVecMagSquare"
+        },
+        {
+          "type": "STRING",
           "value": "osVolumeDetect"
+        },
+        {
+          "type": "STRING",
+          "value": "osWindActiveModelPluginName"
         }
       ]
     },
