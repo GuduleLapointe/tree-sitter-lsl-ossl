@@ -3627,6 +3627,10 @@
     "named": false
   },
   {
+    "type": "llAttachToAvatarTemp",
+    "named": false
+  },
+  {
     "type": "llAvatarOnLinkSitTarget",
     "named": false
   },
@@ -4007,6 +4011,10 @@
     "named": false
   },
   {
+    "type": "llGetEnv",
+    "named": false
+  },
+  {
     "type": "llGetEnvironment",
     "named": false
   },
@@ -4107,6 +4115,10 @@
     "named": false
   },
   {
+    "type": "llGetLinkPrimitiveParams",
+    "named": false
+  },
+  {
     "type": "llGetLinkSitFlags",
     "named": false
   },
@@ -4188,6 +4200,10 @@
   },
   {
     "type": "llGetObjectDetails",
+    "named": false
+  },
+  {
+    "type": "llGetObjectLinkKey",
     "named": false
   },
   {
@@ -4523,6 +4539,10 @@
     "named": false
   },
   {
+    "type": "llJsonGetValue",
+    "named": false
+  },
+  {
     "type": "llJsonSetValue",
     "named": false
   },
@@ -4543,11 +4563,31 @@
     "named": false
   },
   {
+    "type": "llLinkAdjustSoundVolume",
+    "named": false
+  },
+  {
+    "type": "llLinkParticleSystem",
+    "named": false
+  },
+  {
     "type": "llLinkPlaySound",
     "named": false
   },
   {
+    "type": "llLinkSetSoundQueueing",
+    "named": false
+  },
+  {
+    "type": "llLinkSetSoundRadius",
+    "named": false
+  },
+  {
     "type": "llLinkSitTarget",
+    "named": false
+  },
+  {
+    "type": "llLinkStopSound",
     "named": false
   },
   {
@@ -4571,6 +4611,10 @@
     "named": false
   },
   {
+    "type": "llLinksetDataDeleteProtected",
+    "named": false
+  },
+  {
     "type": "llLinksetDataFindKeys",
     "named": false
   },
@@ -4583,11 +4627,19 @@
     "named": false
   },
   {
+    "type": "llLinksetDataReadProtected",
+    "named": false
+  },
+  {
     "type": "llLinksetDataReset",
     "named": false
   },
   {
     "type": "llLinksetDataWrite",
+    "named": false
+  },
+  {
+    "type": "llLinksetDataWriteProtected",
     "named": false
   },
   {
@@ -5211,6 +5263,14 @@
     "named": false
   },
   {
+    "type": "llSetLinkPrimitiveParams",
+    "named": false
+  },
+  {
+    "type": "llSetLinkPrimitiveParamsFast",
+    "named": false
+  },
+  {
     "type": "llSetLinkRenderMaterial",
     "named": false
   },
@@ -5592,6 +5652,10 @@
   },
   {
     "type": "llXorBase64StringsCorrect",
+    "named": false
+  },
+  {
+    "type": "llsRGB2Linear",
     "named": false
   },
   {

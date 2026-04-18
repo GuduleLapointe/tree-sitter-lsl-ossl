@@ -3582,6 +3582,10 @@
         },
         {
           "type": "STRING",
+          "value": "llAttachToAvatarTemp"
+        },
+        {
+          "type": "STRING",
           "value": "llAvatarOnLinkSitTarget"
         },
         {
@@ -3962,6 +3966,10 @@
         },
         {
           "type": "STRING",
+          "value": "llGetEnv"
+        },
+        {
+          "type": "STRING",
           "value": "llGetEnvironment"
         },
         {
@@ -4062,6 +4070,10 @@
         },
         {
           "type": "STRING",
+          "value": "llGetLinkPrimitiveParams"
+        },
+        {
+          "type": "STRING",
           "value": "llGetLinkSitFlags"
         },
         {
@@ -4143,6 +4155,10 @@
         {
           "type": "STRING",
           "value": "llGetObjectDetails"
+        },
+        {
+          "type": "STRING",
+          "value": "llGetObjectLinkKey"
         },
         {
           "type": "STRING",
@@ -4478,6 +4494,10 @@
         },
         {
           "type": "STRING",
+          "value": "llJsonGetValue"
+        },
+        {
+          "type": "STRING",
           "value": "llJsonSetValue"
         },
         {
@@ -4495,6 +4515,14 @@
         {
           "type": "STRING",
           "value": "llLinear2sRGB"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkAdjustSoundVolume"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkParticleSystem"
         },
         {
           "type": "STRING",
@@ -4522,6 +4550,10 @@
         },
         {
           "type": "STRING",
+          "value": "llLinksetDataDeleteProtected"
+        },
+        {
+          "type": "STRING",
           "value": "llLinksetDataFindKeys"
         },
         {
@@ -4534,6 +4566,10 @@
         },
         {
           "type": "STRING",
+          "value": "llLinksetDataReadProtected"
+        },
+        {
+          "type": "STRING",
           "value": "llLinksetDataReset"
         },
         {
@@ -4542,7 +4578,23 @@
         },
         {
           "type": "STRING",
+          "value": "llLinksetDataWriteProtected"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkSetSoundQueueing"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkSetSoundRadius"
+        },
+        {
+          "type": "STRING",
           "value": "llLinkSitTarget"
+        },
+        {
+          "type": "STRING",
+          "value": "llLinkStopSound"
         },
         {
           "type": "STRING",
@@ -5158,6 +5210,14 @@
         },
         {
           "type": "STRING",
+          "value": "llSetLinkPrimitiveParams"
+        },
+        {
+          "type": "STRING",
+          "value": "llSetLinkPrimitiveParamsFast"
+        },
+        {
+          "type": "STRING",
           "value": "llSetLinkRenderMaterial"
         },
         {
@@ -5359,6 +5419,10 @@
         {
           "type": "STRING",
           "value": "llSqrt"
+        },
+        {
+          "type": "STRING",
+          "value": "llsRGB2Linear"
         },
         {
           "type": "STRING",
