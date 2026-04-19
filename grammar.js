@@ -35,14 +35,16 @@ module.exports = grammar({
 		// Control flow
 		// -----------------
 		if_statement: ($) =>
-			prec.right(seq(
-				"if",
-				"(",
-				$.expression,
-				")",
-				$._body,
-				optional(seq("else", $._body)),
-			)),
+			prec.right(
+				seq(
+					"if",
+					"(",
+					$.expression,
+					")",
+					$._body,
+					optional(seq("else", $._body)),
+				),
+			),
 
 		for_statement: ($) =>
 			seq(
@@ -113,10 +115,24 @@ module.exports = grammar({
 			seq("<", $.expression, ",", $.expression, ",", $.expression, ">"),
 
 		rotation_literal: ($) =>
-			seq("<", $.expression, ",", $.expression, ",", $.expression, ",", $.expression, ">"),
+			seq(
+				"<",
+				$.expression,
+				",",
+				$.expression,
+				",",
+				$.expression,
+				",",
+				$.expression,
+				">",
+			),
 
 		list_literal: ($) =>
-			seq("[", optional(seq($.expression, repeat(seq(",", $.expression)))), "]"),
+			seq(
+				"[",
+				optional(seq($.expression, repeat(seq(",", $.expression)))),
+				"]",
+			),
 
 		assignment: ($) => seq($.identifier, "=", $.expression),
 
@@ -128,11 +144,25 @@ module.exports = grammar({
 				seq(
 					$.expression,
 					choice(
-						"+", "-", "*", "/", "%",
-						"==", "!=", "<", ">", "<=", ">=",
-						"&&", "||",
-						"&", "|", "^", "~",
-						"<<", ">>",
+						"+",
+						"-",
+						"*",
+						"/",
+						"%",
+						"==",
+						"!=",
+						"<",
+						">",
+						"<=",
+						">=",
+						"&&",
+						"||",
+						"&",
+						"|",
+						"^",
+						"~",
+						"<<",
+						">>",
 					),
 					$.expression,
 				),
@@ -140,7 +170,10 @@ module.exports = grammar({
 
 		call_expression: ($) =>
 			seq(
-				field("function", choice($.lsl_function, $.ossl_function, $.identifier)),
+				field(
+					"function",
+					choice($.lsl_function, $.ossl_function, $.identifier),
+				),
 				"(",
 				optional($.argument_list),
 				")",
@@ -1568,7 +1601,6 @@ module.exports = grammar({
 				"osDrawRotationTransform",
 				"osDrawScaleTransform",
 				"osDrawText",
-				"osDrawTextText",
 				"osDrawTranslationTransform",
 				"osDropAttachment",
 				"osDropAttachmentAt",

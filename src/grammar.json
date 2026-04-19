@@ -6415,10 +6415,6 @@
         },
         {
           "type": "STRING",
-          "value": "osDrawTextText"
-        },
-        {
-          "type": "STRING",
           "value": "osDrawTranslationTransform"
         },
         {

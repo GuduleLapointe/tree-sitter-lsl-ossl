@@ -6475,10 +6475,6 @@
     "named": false
   },
   {
-    "type": "osDrawTextText",
-    "named": false
-  },
-  {
     "type": "osDrawTranslationTransform",
     "named": false
   },
