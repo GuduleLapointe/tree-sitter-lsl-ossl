@@ -869,10 +869,6 @@
         },
         {
           "type": "STRING",
-          "value": "AGENT_AUTOMATED"
-        },
-        {
-          "type": "STRING",
           "value": "AGENT_AUTOPILOT"
         },
         {
@@ -897,15 +893,15 @@
         },
         {
           "type": "STRING",
-          "value": "AGENT_FLOATING_VIA_SCRIPTED_ATTACHMENT"
-        },
-        {
-          "type": "STRING",
           "value": "AGENT_FLYING"
         },
         {
           "type": "STRING",
           "value": "AGENT_IN_AIR"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_LIST_EXCLUDENPC"
         },
         {
           "type": "STRING",
@@ -918,6 +914,10 @@
         {
           "type": "STRING",
           "value": "AGENT_LIST_REGION"
+        },
+        {
+          "type": "STRING",
+          "value": "AGENT_MALE"
         },
         {
           "type": "STRING",
@@ -1081,6 +1081,10 @@
         },
         {
           "type": "STRING",
+          "value": "ATTACH_LPEC"
+        },
+        {
+          "type": "STRING",
           "value": "ATTACH_LSHOULDER"
         },
         {
@@ -1149,6 +1153,10 @@
         },
         {
           "type": "STRING",
+          "value": "ATTACH_RPEC"
+        },
+        {
+          "type": "STRING",
           "value": "ATTACH_RSHOULDER"
         },
         {
@@ -1170,6 +1178,18 @@
         {
           "type": "STRING",
           "value": "ATTACH_TAIL_TIP"
+        },
+        {
+          "type": "STRING",
+          "value": "BEACON_FOCUS_MAP"
+        },
+        {
+          "type": "STRING",
+          "value": "BEACON_MAP"
+        },
+        {
+          "type": "STRING",
+          "value": "BEACON_SHOW_MAP"
         },
         {
           "type": "STRING",
@@ -1293,7 +1313,15 @@
         },
         {
           "type": "STRING",
+          "value": "CHANGED_POSITION"
+        },
+        {
+          "type": "STRING",
           "value": "CHANGED_REGION"
+        },
+        {
+          "type": "STRING",
+          "value": "CHANGED_REGION_RESTART"
         },
         {
           "type": "STRING",
@@ -1318,78 +1346,6 @@
         {
           "type": "STRING",
           "value": "CHANGED_TEXTURE"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_ACCOUNT_FOR_SKIPPED_FRAMES"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_AVOIDANCE_MODE"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_DESIRED_SPEED"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_DESIRED_TURN_SPEED"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_LENGTH"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_MAX_ACCEL"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_MAX_DECEL"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_MAX_SPEED"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_MAX_TURN_RADIUS"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_ORIENTATION"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_RADIUS"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_STAY_WITHIN_PARCEL"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_TYPE"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_TYPE_A"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_TYPE_B"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_TYPE_C"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_TYPE_D"
-        },
-        {
-          "type": "STRING",
-          "value": "CHARACTER_TYPE_NONE"
         },
         {
           "type": "STRING",
@@ -1437,6 +1393,42 @@
         },
         {
           "type": "STRING",
+          "value": "CONTENT_TYPE_ATOM"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_FORM"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_HTML"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_JSON"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_LLSD"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_RSS"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_TEXT"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_XHTML"
+        },
+        {
+          "type": "STRING",
+          "value": "CONTENT_TYPE_XML"
+        },
+        {
+          "type": "STRING",
           "value": "CONTROL_BACK"
         },
         {
@@ -1477,10 +1469,6 @@
         },
         {
           "type": "STRING",
-          "value": "DAMAGEABLE"
-        },
-        {
-          "type": "STRING",
           "value": "DATA_BORN"
         },
         {
@@ -1517,7 +1505,15 @@
         },
         {
           "type": "STRING",
+          "value": "DEBUG_CHANNEL"
+        },
+        {
+          "type": "STRING",
           "value": "DEG_TO_RAD"
+        },
+        {
+          "type": "STRING",
+          "value": "DENSITY"
         },
         {
           "type": "STRING",
@@ -1573,123 +1569,11 @@
         },
         {
           "type": "STRING",
-          "value": "FORCE_DIRECT_PATH"
+          "value": "FRICTION"
         },
         {
           "type": "STRING",
-          "value": "GAME_CONTROL_AXIS_LEFTX"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_AXIS_LEFTY"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_AXIS_RIGHTX"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_AXIS_RIGHTY"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_AXIS_TRIGGERLEFT"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_AXIS_TRIGGERRIGHT"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_A"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_B"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_BACK"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_DPAD_DOWN"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_DPAD_LEFT"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_DPAD_RIGHT"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_DPAD_UP"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_GUIDE"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_LEFTSHOULDER"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_LEFTSTICK"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_MISC1"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_PADDLE1"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_PADDLE2"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_PADDLE3"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_PADDLE4"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_RIGHTSHOULDER"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_RIGHTSTICK"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_START"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_TOUCHPAD"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_X"
-        },
-        {
-          "type": "STRING",
-          "value": "GAME_CONTROL_BUTTON_Y"
-        },
-        {
-          "type": "STRING",
-          "value": "HORIZONTAL"
-        },
-        {
-          "type": "STRING",
-          "value": "HTTP_ACCEPT"
+          "value": "GRAVITY_MULTIPLIER"
         },
         {
           "type": "STRING",
@@ -1697,15 +1581,7 @@
         },
         {
           "type": "STRING",
-          "value": "HTTP_BODY_TRUNCATED"
-        },
-        {
-          "type": "STRING",
           "value": "HTTP_CUSTOM_HEADER"
-        },
-        {
-          "type": "STRING",
-          "value": "HTTP_EXTENDED_ERROR"
         },
         {
           "type": "STRING",
@@ -1721,15 +1597,55 @@
         },
         {
           "type": "STRING",
-          "value": "HTTP_USER_AGENT"
-        },
-        {
-          "type": "STRING",
           "value": "HTTP_VERBOSE_THROTTLE"
         },
         {
           "type": "STRING",
           "value": "HTTP_VERIFY_CERT"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_AUX1"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_AUX2"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_AUX3"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_EYES"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_HAIR"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_HEAD"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_LEFTARM"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_LEFTLEG"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_LOWER"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_SKIRT"
+        },
+        {
+          "type": "STRING",
+          "value": "IMG_USE_BAKED_UPPER"
         },
         {
           "type": "STRING",
@@ -1877,11 +1793,19 @@
         },
         {
           "type": "STRING",
+          "value": "LAND_LARGE_BRUSH"
+        },
+        {
+          "type": "STRING",
           "value": "LAND_LEVEL"
         },
         {
           "type": "STRING",
           "value": "LAND_LOWER"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_MEDIUM_BRUSH"
         },
         {
           "type": "STRING",
@@ -1894,6 +1818,10 @@
         {
           "type": "STRING",
           "value": "LAND_REVERT"
+        },
+        {
+          "type": "STRING",
+          "value": "LAND_SMALL_BRUSH"
         },
         {
           "type": "STRING",
@@ -1918,6 +1846,46 @@
         {
           "type": "STRING",
           "value": "LINK_THIS"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_DELETE"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_EMEMORY"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_ENOKEY"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_EPROTECTED"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_MULTIDELETE"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_NOTFOUND"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_NOUPDATE"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_OK"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_RESET"
+        },
+        {
+          "type": "STRING",
+          "value": "LINKSETDATA_UPDATE"
         },
         {
           "type": "STRING",
@@ -1969,6 +1937,38 @@
         },
         {
           "type": "STRING",
+          "value": "LSL_STATUS_BOUNDS_ERROR"
+        },
+        {
+          "type": "STRING",
+          "value": "LSL_STATUS_INTERNAL_ERROR"
+        },
+        {
+          "type": "STRING",
+          "value": "LSL_STATUS_MALFORMED_PARAMS"
+        },
+        {
+          "type": "STRING",
+          "value": "LSL_STATUS_NOT_FOUND"
+        },
+        {
+          "type": "STRING",
+          "value": "LSL_STATUS_NOT_SUPPORTED"
+        },
+        {
+          "type": "STRING",
+          "value": "LSL_STATUS_OK"
+        },
+        {
+          "type": "STRING",
+          "value": "LSL_STATUS_TYPE_MISMATCH"
+        },
+        {
+          "type": "STRING",
+          "value": "LSL_STATUS_WHITELIST_FAILED"
+        },
+        {
+          "type": "STRING",
           "value": "MASK_BASE"
         },
         {
@@ -1993,7 +1993,67 @@
         },
         {
           "type": "STRING",
+          "value": "NPC"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_CLEAR"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_CONVERSATION"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_FOCUS"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_FREELOOK"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_HOVER"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_IDLE"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_LISTEN"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_MOUSELOOK"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_RESPOND"
+        },
+        {
+          "type": "STRING",
+          "value": "NPCLOOKAT_SELECT"
+        },
+        {
+          "type": "STRING",
           "value": "NULL_KEY"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_ACCOUNT_LEVEL"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_ANIMATED_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_ANIMATED_SLOTS_AVAILABLE"
         },
         {
           "type": "STRING",
@@ -2005,15 +2065,35 @@
         },
         {
           "type": "STRING",
-          "value": "OBJECT_DAMAGE"
+          "value": "OBJECT_BODY_SHAPE_TYPE"
         },
         {
           "type": "STRING",
-          "value": "OBJECT_DAMAGE_TYPE"
+          "value": "OBJECT_CHARACTER_TIME"
         },
         {
           "type": "STRING",
-          "value": "OBJECT_HEALTH"
+          "value": "OBJECT_CLICK_ACTION"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_CREATION_TIME"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_CREATOR"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_DESC"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_GROUP"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_GROUP_TAG"
         },
         {
           "type": "STRING",
@@ -2021,7 +2101,31 @@
         },
         {
           "type": "STRING",
+          "value": "OBJECT_LAST_OWNER_ID"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_LINK_NUMBER"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_MASS"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_MATERIAL"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_NAME"
+        },
+        {
+          "type": "STRING",
           "value": "OBJECT_OMEGA"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_OWNER"
         },
         {
           "type": "STRING",
@@ -2037,7 +2141,19 @@
         },
         {
           "type": "STRING",
+          "value": "OBJECT_PHYSICS_COST"
+        },
+        {
+          "type": "STRING",
           "value": "OBJECT_POS"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_PRIM_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_PRIM_EQUIVALENCE"
         },
         {
           "type": "STRING",
@@ -2045,15 +2161,11 @@
         },
         {
           "type": "STRING",
-          "value": "OBJECT_RETURN_PARCEL"
+          "value": "OBJECT_REZ_TIME"
         },
         {
           "type": "STRING",
-          "value": "OBJECT_RETURN_PARCEL_OWNER"
-        },
-        {
-          "type": "STRING",
-          "value": "OBJECT_RETURN_REGION"
+          "value": "OBJECT_REZZER_KEY"
         },
         {
           "type": "STRING",
@@ -2061,7 +2173,75 @@
         },
         {
           "type": "STRING",
+          "value": "OBJECT_ROT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_RUNNING_SCRIPT_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_SCRIPT_MEMORY"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_SCRIPT_TIME"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_SELECT_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_SERVER_COST"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_SIT_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_STREAMING_COST"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_TEMP_ATTACHED"
+        },
+        {
+          "type": "STRING",
           "value": "OBJECT_TEMP_ON_REZ"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_TEXT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_TEXT_ALPHA"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_TEXT_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_TOTAL_INVENTORY_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_TOTAL_SCRIPT_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_UNKNOWN_DETAIL"
+        },
+        {
+          "type": "STRING",
+          "value": "OBJECT_VELOCITY"
         },
         {
           "type": "STRING",
@@ -2097,6 +2277,10 @@
         },
         {
           "type": "STRING",
+          "value": "OS_APIVERSION"
+        },
+        {
+          "type": "STRING",
           "value": "OS_ATTACH_MSG_ALL"
         },
         {
@@ -2121,6 +2305,66 @@
         },
         {
           "type": "STRING",
+          "value": "OS_LTPAG_ALGNLV"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_LTPAG_FORCEFLY"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_LTPAG_FORCENOFLY"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_LTPAG_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_LTPAG_USELOOKAT"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_LTPAG_USEVEL"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_CREATOR_OWNED"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_FLY"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_LAND_AT_TARGET"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_NO_FLY"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_NOT_OWNED"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_OBJECT_GROUP"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_RUNNING"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_SENSE_AS_AGENT"
+        },
+        {
+          "type": "STRING",
+          "value": "OS_NPC_SIT_NOW"
+        },
+        {
+          "type": "STRING",
           "value": "OSTPOBJ_NONE"
         },
         {
@@ -2137,11 +2381,115 @@
         },
         {
           "type": "STRING",
+          "value": "PARCEL_COUNT_GROUP"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_COUNT_OTHER"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_COUNT_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_COUNT_SELECTED"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_COUNT_TEMP"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_COUNT_TOTAL"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_ANY_AVATAR_SOUNDS"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_AREA"
+        },
+        {
+          "type": "STRING",
           "value": "PARCEL_DETAILS_CLAIMDATE"
         },
         {
           "type": "STRING",
+          "value": "PARCEL_DETAILS_DESC"
+        },
+        {
+          "type": "STRING",
           "value": "PARCEL_DETAILS_DWELL"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_FLAGS"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_GEOMETRICCENTER"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_GETCLAIMDATE"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_GROUP"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_GROUP_SOUNDS"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_ID"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_LANDING_LOOKAT"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_LANDING_POINT"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_NAME"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_PRIM_CAPACITY"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_PRIM_USED"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_SCRIPT_DANGER"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_SEE_AVATARS"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_DETAILS_TP_ROUTING"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_ALL_OBJECT_ENTRY"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_CREATE_GROUP_OBJECTS"
         },
         {
           "type": "STRING",
@@ -2157,11 +2505,47 @@
         },
         {
           "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_GROUP_SCRIPTS"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_ALLOW_LANDMARK"
+        },
+        {
+          "type": "STRING",
           "value": "PARCEL_FLAG_ALLOW_SCRIPTS"
         },
         {
           "type": "STRING",
           "value": "PARCEL_FLAG_ALLOW_TERRAFORM"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_LOCAL_SOUND_ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_RESTRICT_PUSHOBJECT"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_USE_ACCESS_GROUP"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_USE_ACCESS_LIST"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_USE_BAN_LIST"
+        },
+        {
+          "type": "STRING",
+          "value": "PARCEL_FLAG_USE_LAND_PASS_LIST"
         },
         {
           "type": "STRING",
@@ -2178,10 +2562,6 @@
         {
           "type": "STRING",
           "value": "PARCEL_MEDIA_COMMAND_LOOP"
-        },
-        {
-          "type": "STRING",
-          "value": "PARCEL_MEDIA_COMMAND_LOOP_SET"
         },
         {
           "type": "STRING",
@@ -2221,23 +2601,7 @@
         },
         {
           "type": "STRING",
-          "value": "PASS_ALWAYS"
-        },
-        {
-          "type": "STRING",
-          "value": "PASS_IF_NOT_HANDLED"
-        },
-        {
-          "type": "STRING",
-          "value": "PASS_NEVER"
-        },
-        {
-          "type": "STRING",
           "value": "PASSIVE"
-        },
-        {
-          "type": "STRING",
-          "value": "PATROL_PAUSE_AT_WAYPOINTS"
         },
         {
           "type": "STRING",
@@ -2246,14 +2610,6 @@
         {
           "type": "STRING",
           "value": "PAY_HIDE"
-        },
-        {
-          "type": "STRING",
-          "value": "PAYMENT_INFO_ON_FILE"
-        },
-        {
-          "type": "STRING",
-          "value": "PAYMENT_INFO_USED"
         },
         {
           "type": "STRING",
@@ -2281,7 +2637,15 @@
         },
         {
           "type": "STRING",
+          "value": "PERMISSION_CHANGE_JOINTS"
+        },
+        {
+          "type": "STRING",
           "value": "PERMISSION_CHANGE_LINKS"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_CHANGE_PERMISSIONS"
         },
         {
           "type": "STRING",
@@ -2297,7 +2661,11 @@
         },
         {
           "type": "STRING",
-          "value": "PERMISSION_PRIVILEGED_LAND_ACCESS"
+          "value": "PERMISSION_RELEASE_OWNERSHIP"
+        },
+        {
+          "type": "STRING",
+          "value": "PERMISSION_REMAP_CONTROLS"
         },
         {
           "type": "STRING",
@@ -2437,15 +2805,11 @@
         },
         {
           "type": "STRING",
-          "value": "PRIM_CLICK_ACTION"
+          "value": "PRIM_CAST_SHADOWS"
         },
         {
           "type": "STRING",
           "value": "PRIM_COLOR"
-        },
-        {
-          "type": "STRING",
-          "value": "PRIM_DAMAGE"
         },
         {
           "type": "STRING",
@@ -2465,18 +2829,6 @@
         },
         {
           "type": "STRING",
-          "value": "PRIM_GLTF_ALPHA_MODE_BLEND"
-        },
-        {
-          "type": "STRING",
-          "value": "PRIM_GLTF_ALPHA_MODE_MASK"
-        },
-        {
-          "type": "STRING",
-          "value": "PRIM_GLTF_ALPHA_MODE_OPAQUE"
-        },
-        {
-          "type": "STRING",
           "value": "PRIM_GLTF_BASE_COLOR"
         },
         {
@@ -2490,10 +2842,6 @@
         {
           "type": "STRING",
           "value": "PRIM_GLTF_NORMAL"
-        },
-        {
-          "type": "STRING",
-          "value": "PRIM_HEALTH"
         },
         {
           "type": "STRING",
@@ -2573,6 +2921,18 @@
         },
         {
           "type": "STRING",
+          "value": "PRIM_MEDIA_CONTROLS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_CONTROLS_MINI"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_MEDIA_CONTROLS_STANDARD"
+        },
+        {
+          "type": "STRING",
           "value": "PRIM_MEDIA_CURRENT_URL"
         },
         {
@@ -2642,6 +3002,10 @@
         {
           "type": "STRING",
           "value": "PRIM_PHYSICS"
+        },
+        {
+          "type": "STRING",
+          "value": "PRIM_PHYSICS_MATERIAL"
         },
         {
           "type": "STRING",
@@ -2845,6 +3209,210 @@
         },
         {
           "type": "STRING",
+          "value": "PSYS_PART_BF_DEST_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BF_ONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BF_ONE_MINUS_DEST_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BF_ONE_MINUS_SOURCE_ALPHA"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BF_ONE_MINUS_SOURCE_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BF_SOURCE_ALPHA"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BF_SOURCE_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BF_ZERO"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BLEND_FUNC_DEST"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BLEND_FUNC_SOURCE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_BOUNCE_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_EMISSIVE_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_END_ALPHA"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_END_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_END_GLOW"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_END_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_FLAGS"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_FOLLOW_SRC_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_FOLLOW_VELOCITY_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_INTERP_COLOR_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_INTERP_SCALE_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_MAX_AGE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_RIBBON_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_START_ALPHA"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_START_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_START_GLOW"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_START_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_TARGET_LINEAR_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_TARGET_POS_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_PART_WIND_MASK"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_ACCEL"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_ANGLE_BEGIN"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_ANGLE_END"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_BURST_PART_COUNT"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_BURST_RADIUS"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_BURST_RATE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_BURST_SPEED_MAX"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_BURST_SPEED_MIN"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_INNERANGLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_MAX_AGE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_OMEGA"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_OUTERANGLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_PATTERN"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_PATTERN_ANGLE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_PATTERN_ANGLE_CONE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_PATTERN_ANGLE_CONE_EMPTY"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_PATTERN_DROP"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_PATTERN_EXPLODE"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_TARGET_KEY"
+        },
+        {
+          "type": "STRING",
+          "value": "PSYS_SRC_TEXTURE"
+        },
+        {
+          "type": "STRING",
+          "value": "PUBLIC_CHANNEL"
+        },
+        {
+          "type": "STRING",
           "value": "RAD_TO_DEG"
         },
         {
@@ -2874,6 +3442,14 @@
         {
           "type": "STRING",
           "value": "RC_REJECT_AGENTS"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_REJECT_HOST"
+        },
+        {
+          "type": "STRING",
+          "value": "RC_REJECT_HOSTGROUP"
         },
         {
           "type": "STRING",
@@ -2953,7 +3529,15 @@
         },
         {
           "type": "STRING",
+          "value": "RESTITUTION"
+        },
+        {
+          "type": "STRING",
           "value": "REVERSE"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_ACCEL"
         },
         {
           "type": "STRING",
@@ -2962,6 +3546,78 @@
         {
           "type": "STRING",
           "value": "REZ_DAMAGE_TYPE"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_BLOCK_GRAB_OBJECT"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_DIE_ON_COLLIDE"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_DIE_ON_NOENTRY"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_NO_COLLIDE_FAMILY"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_NO_COLLIDE_OWNER"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_PHANTOM"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_PHYSICAL"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAG_TEMP"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_FLAGS"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_LOCK_AXES"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_OMEGA"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_PARAM"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_PARAM_STRING"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_POS"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_ROT"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_SOUND"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_SOUND_COLLIDE"
+        },
+        {
+          "type": "STRING",
+          "value": "REZ_VEL"
         },
         {
           "type": "STRING",
@@ -3085,7 +3741,47 @@
         },
         {
           "type": "STRING",
+          "value": "SIT_FLAG_ALLOW_UNSIT"
+        },
+        {
+          "type": "STRING",
+          "value": "SIT_FLAG_NO_COLLIDE"
+        },
+        {
+          "type": "STRING",
+          "value": "SIT_FLAG_NO_DAMAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "SIT_FLAG_OPENSIMFORCED"
+        },
+        {
+          "type": "STRING",
+          "value": "SIT_FLAG_SCRIPTED_ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "SIT_FLAG_SIT_TARGET"
+        },
+        {
+          "type": "STRING",
           "value": "SMOOTH"
+        },
+        {
+          "type": "STRING",
+          "value": "SOUND_LOOP"
+        },
+        {
+          "type": "STRING",
+          "value": "SOUND_PLAY"
+        },
+        {
+          "type": "STRING",
+          "value": "SOUND_SYNC"
+        },
+        {
+          "type": "STRING",
+          "value": "SOUND_TRIGGER"
         },
         {
           "type": "STRING",
@@ -3193,27 +3889,19 @@
         },
         {
           "type": "STRING",
-          "value": "STATUS_BOUNDS_ERROR"
+          "value": "STATUS_BLOCK_GRAB"
         },
         {
           "type": "STRING",
-          "value": "STATUS_INTERNAL_ERROR"
+          "value": "STATUS_BLOCK_GRAB_OBJECT"
         },
         {
           "type": "STRING",
-          "value": "STATUS_MALFORMED_PARAMS"
+          "value": "STATUS_CAST_SHADOWS"
         },
         {
           "type": "STRING",
-          "value": "STATUS_NOT_FOUND"
-        },
-        {
-          "type": "STRING",
-          "value": "STATUS_NOT_SUPPORTED"
-        },
-        {
-          "type": "STRING",
-          "value": "STATUS_OK"
+          "value": "STATUS_DIE_AT_EDGE"
         },
         {
           "type": "STRING",
@@ -3222,6 +3910,10 @@
         {
           "type": "STRING",
           "value": "STATUS_PHYSICS"
+        },
+        {
+          "type": "STRING",
+          "value": "STATUS_RETURN_AT_EDGE"
         },
         {
           "type": "STRING",
@@ -3237,11 +3929,7 @@
         },
         {
           "type": "STRING",
-          "value": "STATUS_TYPE_MISMATCH"
-        },
-        {
-          "type": "STRING",
-          "value": "STATUS_WHITELIST_FAILED"
+          "value": "STATUS_SANDBOX"
         },
         {
           "type": "STRING",
@@ -3261,7 +3949,15 @@
         },
         {
           "type": "STRING",
+          "value": "TARGETED_EMAIL_ROOT_CREATOR"
+        },
+        {
+          "type": "STRING",
           "value": "TEXTURE_BLANK"
+        },
+        {
+          "type": "STRING",
+          "value": "TEXTURE_DEFAULT"
         },
         {
           "type": "STRING",
@@ -3286,10 +3982,6 @@
         {
           "type": "STRING",
           "value": "TOUCH_INVALID_VECTOR"
-        },
-        {
-          "type": "STRING",
-          "value": "TRAVERSAL_TYPE"
         },
         {
           "type": "STRING",
@@ -3377,10 +4069,6 @@
         },
         {
           "type": "STRING",
-          "value": "VEHICLE_FLAG_BLOCK_INTERFERENCE"
-        },
-        {
-          "type": "STRING",
           "value": "VEHICLE_FLAG_CAMERA_DECOUPLED"
         },
         {
@@ -3430,6 +4118,10 @@
         {
           "type": "STRING",
           "value": "VEHICLE_FLAG_NO_DEFLECTION_UP"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_FLAG_NO_FLY_UP"
         },
         {
           "type": "STRING",
@@ -3497,7 +4189,27 @@
         },
         {
           "type": "STRING",
+          "value": "VEHICLE_TYPE_AIRPLANE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_TYPE_BALLOON"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_TYPE_BOAT"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_TYPE_CAR"
+        },
+        {
+          "type": "STRING",
           "value": "VEHICLE_TYPE_NONE"
+        },
+        {
+          "type": "STRING",
+          "value": "VEHICLE_TYPE_SLED"
         },
         {
           "type": "STRING",
@@ -3509,7 +4221,151 @@
         },
         {
           "type": "STRING",
-          "value": "VERTICAL"
+          "value": "WL_AMBIENT"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_BIG_WAVE_DIRECTION"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_BLUE_DENSITY"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_BLUR_MULTIPLIER"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_COVERAGE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_DETAIL_XY_DENSITY"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_SCROLL_X"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_SCROLL_X_LOCK"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_SCROLL_Y"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_SCROLL_Y_LOCK"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_CLOUD_XY_DENSITY"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_DENSITY_MULTIPLIER"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_DISTANCE_MULTIPLIER"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_DRAW_CLASSIC_CLOUDS"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_EAST_ANGLE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_FRESNEL_OFFSET"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_FRESNEL_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_HAZE_DENSITY"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_HAZE_HORIZON"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_HORIZON"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_LITTLE_WAVE_DIRECTION"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_MAX_ALTITUDE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_NORMAL_MAP_TEXTURE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_REFLECTION_WAVELET_SCALE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_REFRACT_SCALE_ABOVE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_REFRACT_SCALE_BELOW"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_SCENE_GAMMA"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_STAR_BRIGHTNESS"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_SUN_GLOW_FOCUS"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_SUN_GLOW_SIZE"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_SUN_MOON_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_SUN_MOON_POSITION"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_UNDERWATER_FOG_MODIFIER"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_WATER_COLOR"
+        },
+        {
+          "type": "STRING",
+          "value": "WL_WATER_FOG_DENSITY_EXPONENT"
         },
         {
           "type": "STRING",
@@ -3542,15 +4398,7 @@
         },
         {
           "type": "STRING",
-          "value": "llAdjustDamage"
-        },
-        {
-          "type": "STRING",
           "value": "llAdjustSoundVolume"
-        },
-        {
-          "type": "STRING",
-          "value": "llAgentInExperience"
         },
         {
           "type": "STRING",
@@ -3622,6 +4470,10 @@
         },
         {
           "type": "STRING",
+          "value": "llCastRayV3"
+        },
+        {
+          "type": "STRING",
           "value": "llCeil"
         },
         {
@@ -3670,35 +4522,11 @@
         },
         {
           "type": "STRING",
-          "value": "llCreateCharacter"
-        },
-        {
-          "type": "STRING",
-          "value": "llCreateKeyValue"
-        },
-        {
-          "type": "STRING",
           "value": "llCreateLink"
         },
         {
           "type": "STRING",
           "value": "llCSV2List"
-        },
-        {
-          "type": "STRING",
-          "value": "llDamage"
-        },
-        {
-          "type": "STRING",
-          "value": "llDataSizeKeyValue"
-        },
-        {
-          "type": "STRING",
-          "value": "llDeleteCharacter"
-        },
-        {
-          "type": "STRING",
-          "value": "llDeleteKeyValue"
         },
         {
           "type": "STRING",
@@ -3715,10 +4543,6 @@
         {
           "type": "STRING",
           "value": "llDetachFromAvatar"
-        },
-        {
-          "type": "STRING",
-          "value": "llDetectedDamage"
         },
         {
           "type": "STRING",
@@ -3747,10 +4571,6 @@
         {
           "type": "STRING",
           "value": "llDetectedPos"
-        },
-        {
-          "type": "STRING",
-          "value": "llDetectedRezzer"
         },
         {
           "type": "STRING",
@@ -3822,23 +4642,7 @@
         },
         {
           "type": "STRING",
-          "value": "llEvade"
-        },
-        {
-          "type": "STRING",
-          "value": "llExecCharacterCmd"
-        },
-        {
-          "type": "STRING",
           "value": "llFabs"
-        },
-        {
-          "type": "STRING",
-          "value": "llFindNotecardTextSync"
-        },
-        {
-          "type": "STRING",
-          "value": "llFleeFrom"
         },
         {
           "type": "STRING",
@@ -3906,10 +4710,6 @@
         },
         {
           "type": "STRING",
-          "value": "llGetAttachedListFiltered"
-        },
-        {
-          "type": "STRING",
           "value": "llGetBoundingBox"
         },
         {
@@ -3931,10 +4731,6 @@
         {
           "type": "STRING",
           "value": "llGetCenterOfMass"
-        },
-        {
-          "type": "STRING",
-          "value": "llGetClosestNavPoint"
         },
         {
           "type": "STRING",
@@ -3967,18 +4763,6 @@
         {
           "type": "STRING",
           "value": "llGetEnv"
-        },
-        {
-          "type": "STRING",
-          "value": "llGetEnvironment"
-        },
-        {
-          "type": "STRING",
-          "value": "llGetExperienceDetails"
-        },
-        {
-          "type": "STRING",
-          "value": "llGetExperienceErrorMessage"
         },
         {
           "type": "STRING",
@@ -4286,10 +5070,6 @@
         },
         {
           "type": "STRING",
-          "value": "llGetRegionTimeOfDay"
-        },
-        {
-          "type": "STRING",
           "value": "llGetRenderMaterial"
         },
         {
@@ -4335,10 +5115,6 @@
         {
           "type": "STRING",
           "value": "llGetStartString"
-        },
-        {
-          "type": "STRING",
-          "value": "llGetStaticPath"
         },
         {
           "type": "STRING",
@@ -4411,10 +5187,6 @@
         {
           "type": "STRING",
           "value": "llGetWallclock"
-        },
-        {
-          "type": "STRING",
-          "value": "llGiveAgentInventory"
         },
         {
           "type": "STRING",
@@ -4507,14 +5279,6 @@
         {
           "type": "STRING",
           "value": "llKey2Name"
-        },
-        {
-          "type": "STRING",
-          "value": "llKeyCountKeyValue"
-        },
-        {
-          "type": "STRING",
-          "value": "llKeysKeyValue"
         },
         {
           "type": "STRING",
@@ -4750,10 +5514,6 @@
         },
         {
           "type": "STRING",
-          "value": "llMatchGroup"
-        },
-        {
-          "type": "STRING",
           "value": "llMD5String"
         },
         {
@@ -4782,15 +5542,7 @@
         },
         {
           "type": "STRING",
-          "value": "llNavigateTo"
-        },
-        {
-          "type": "STRING",
           "value": "llOffsetTexture"
-        },
-        {
-          "type": "STRING",
-          "value": "llOpenFloater"
         },
         {
           "type": "STRING",
@@ -4838,10 +5590,6 @@
         },
         {
           "type": "STRING",
-          "value": "llPatrolPoints"
-        },
-        {
-          "type": "STRING",
           "value": "llPlaySound"
         },
         {
@@ -4862,15 +5610,7 @@
         },
         {
           "type": "STRING",
-          "value": "llPursue"
-        },
-        {
-          "type": "STRING",
           "value": "llPushObject"
-        },
-        {
-          "type": "STRING",
-          "value": "llReadKeyValue"
         },
         {
           "type": "STRING",
@@ -4930,14 +5670,6 @@
         },
         {
           "type": "STRING",
-          "value": "llReplaceAgentEnvironment"
-        },
-        {
-          "type": "STRING",
-          "value": "llReplaceEnvironment"
-        },
-        {
-          "type": "STRING",
           "value": "llReplaceSubString"
         },
         {
@@ -4947,10 +5679,6 @@
         {
           "type": "STRING",
           "value": "llRequestDisplayName"
-        },
-        {
-          "type": "STRING",
-          "value": "llRequestExperiencePermissions"
         },
         {
           "type": "STRING",
@@ -5003,14 +5731,6 @@
         {
           "type": "STRING",
           "value": "llResetTime"
-        },
-        {
-          "type": "STRING",
-          "value": "llReturnObjectsByID"
-        },
-        {
-          "type": "STRING",
-          "value": "llReturnObjectsByOwner"
         },
         {
           "type": "STRING",
@@ -5114,14 +5834,6 @@
         },
         {
           "type": "STRING",
-          "value": "llSetAgentEnvironment"
-        },
-        {
-          "type": "STRING",
-          "value": "llSetAgentRot"
-        },
-        {
-          "type": "STRING",
           "value": "llSetAlpha"
         },
         {
@@ -5166,19 +5878,11 @@
         },
         {
           "type": "STRING",
-          "value": "llSetEnvironment"
-        },
-        {
-          "type": "STRING",
           "value": "llSetForce"
         },
         {
           "type": "STRING",
           "value": "llSetForceAndTorque"
-        },
-        {
-          "type": "STRING",
-          "value": "llSetGroundTexture"
         },
         {
           "type": "STRING",
@@ -5206,10 +5910,6 @@
         },
         {
           "type": "STRING",
-          "value": "llSetLinkGLTFOverrides"
-        },
-        {
-          "type": "STRING",
           "value": "llSetLinkMedia"
         },
         {
@@ -5219,10 +5919,6 @@
         {
           "type": "STRING",
           "value": "llSetLinkPrimitiveParamsFast"
-        },
-        {
-          "type": "STRING",
-          "value": "llSetLinkRenderMaterial"
         },
         {
           "type": "STRING",
@@ -5255,10 +5951,6 @@
         {
           "type": "STRING",
           "value": "llSetObjectPermMask"
-        },
-        {
-          "type": "STRING",
-          "value": "llSetParcelForSale"
         },
         {
           "type": "STRING",
@@ -5311,10 +6003,6 @@
         {
           "type": "STRING",
           "value": "llSetScriptState"
-        },
-        {
-          "type": "STRING",
-          "value": "llSetSculptAnim"
         },
         {
           "type": "STRING",
@@ -5394,15 +6082,7 @@
         },
         {
           "type": "STRING",
-          "value": "llSignRSA"
-        },
-        {
-          "type": "STRING",
           "value": "llSin"
-        },
-        {
-          "type": "STRING",
-          "value": "llSitOnLink"
         },
         {
           "type": "STRING",
@@ -5538,10 +6218,6 @@
         },
         {
           "type": "STRING",
-          "value": "llTransferOwnership"
-        },
-        {
-          "type": "STRING",
           "value": "llTriggerSound"
         },
         {
@@ -5558,14 +6234,6 @@
         },
         {
           "type": "STRING",
-          "value": "llUpdateCharacter"
-        },
-        {
-          "type": "STRING",
-          "value": "llUpdateKeyValue"
-        },
-        {
-          "type": "STRING",
           "value": "llVecDist"
         },
         {
@@ -5578,15 +6246,7 @@
         },
         {
           "type": "STRING",
-          "value": "llVerifyRSA"
-        },
-        {
-          "type": "STRING",
           "value": "llVolumeDetect"
-        },
-        {
-          "type": "STRING",
-          "value": "llWanderWithin"
         },
         {
           "type": "STRING",
@@ -5623,15 +6283,15 @@
       "members": [
         {
           "type": "STRING",
-          "value": "osAddAgentToGroup"
-        },
-        {
-          "type": "STRING",
           "value": "osAdjustSoundVolume"
         },
         {
           "type": "STRING",
           "value": "osAESDecrypt"
+        },
+        {
+          "type": "STRING",
+          "value": "osAESDecryptFrom"
         },
         {
           "type": "STRING",
@@ -5931,6 +6591,10 @@
         },
         {
           "type": "STRING",
+          "value": "osGetLinkColor"
+        },
+        {
+          "type": "STRING",
           "value": "osGetLinkInventoryDesc"
         },
         {
@@ -5944,6 +6608,10 @@
         {
           "type": "STRING",
           "value": "osGetLinkInventoryKey"
+        },
+        {
+          "type": "STRING",
+          "value": "osGetLinkInventoryKeys"
         },
         {
           "type": "STRING",
@@ -6103,10 +6771,6 @@
         },
         {
           "type": "STRING",
-          "value": "osGrantScriptPermissions"
-        },
-        {
-          "type": "STRING",
           "value": "osInviteToGroup"
         },
         {
@@ -6131,15 +6795,7 @@
         },
         {
           "type": "STRING",
-          "value": "osLineTo"
-        },
-        {
-          "type": "STRING",
           "value": "osLinkParticleSystem"
-        },
-        {
-          "type": "STRING",
-          "value": "osList2Double"
         },
         {
           "type": "STRING",
@@ -6164,6 +6820,10 @@
         {
           "type": "STRING",
           "value": "osListenRegex"
+        },
+        {
+          "type": "STRING",
+          "value": "osListFindListNext"
         },
         {
           "type": "STRING",
@@ -6323,11 +6983,19 @@
         },
         {
           "type": "STRING",
+          "value": "osOldList2ListStrided"
+        },
+        {
+          "type": "STRING",
           "value": "osOwnerSaveAppearance"
         },
         {
           "type": "STRING",
           "value": "osParcelJoin"
+        },
+        {
+          "type": "STRING",
+          "value": "osParcelSetDetails"
         },
         {
           "type": "STRING",
@@ -6396,14 +7064,6 @@
         {
           "type": "STRING",
           "value": "osResetEnvironment"
-        },
-        {
-          "type": "STRING",
-          "value": "osRestartRegion"
-        },
-        {
-          "type": "STRING",
-          "value": "osRevokeScriptPermissions"
         },
         {
           "type": "STRING",
@@ -6543,6 +7203,10 @@
         },
         {
           "type": "STRING",
+          "value": "osSetRot"
+        },
+        {
+          "type": "STRING",
           "value": "osSetSitActiveRange"
         },
         {
@@ -6623,6 +7287,10 @@
         },
         {
           "type": "STRING",
+          "value": "osSunGetParam"
+        },
+        {
+          "type": "STRING",
           "value": "osSunSetParam"
         },
         {
@@ -6639,7 +7307,19 @@
         },
         {
           "type": "STRING",
+          "value": "osTemperature2sRGB"
+        },
+        {
+          "type": "STRING",
           "value": "osTerrainFlush"
+        },
+        {
+          "type": "STRING",
+          "value": "osTerrainGetHeight"
+        },
+        {
+          "type": "STRING",
+          "value": "osTerrainSetHeight"
         },
         {
           "type": "STRING",
@@ -6668,14 +7348,6 @@
         {
           "type": "STRING",
           "value": "osWindActiveModelPluginName"
-        },
-        {
-          "type": "STRING",
-          "value": "osWindParamGet"
-        },
-        {
-          "type": "STRING",
-          "value": "osWindParamSet"
         }
       ]
     },
@@ -6757,22 +7429,6 @@
         },
         {
           "type": "STRING",
-          "value": "experience_permissions"
-        },
-        {
-          "type": "STRING",
-          "value": "experience_permissions_denied"
-        },
-        {
-          "type": "STRING",
-          "value": "final_damage"
-        },
-        {
-          "type": "STRING",
-          "value": "game_control"
-        },
-        {
-          "type": "STRING",
           "value": "http_request"
         },
         {
@@ -6833,19 +7489,15 @@
         },
         {
           "type": "STRING",
-          "value": "on_damage"
-        },
-        {
-          "type": "STRING",
-          "value": "on_death"
-        },
-        {
-          "type": "STRING",
           "value": "on_rez"
         },
         {
           "type": "STRING",
           "value": "path_update"
+        },
+        {
+          "type": "STRING",
+          "value": "region_cross"
         },
         {
           "type": "STRING",

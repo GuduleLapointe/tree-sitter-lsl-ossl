@@ -774,10 +774,6 @@
     "named": false
   },
   {
-    "type": "AGENT_AUTOMATED",
-    "named": false
-  },
-  {
     "type": "AGENT_AUTOPILOT",
     "named": false
   },
@@ -802,15 +798,15 @@
     "named": false
   },
   {
-    "type": "AGENT_FLOATING_VIA_SCRIPTED_ATTACHMENT",
-    "named": false
-  },
-  {
     "type": "AGENT_FLYING",
     "named": false
   },
   {
     "type": "AGENT_IN_AIR",
+    "named": false
+  },
+  {
+    "type": "AGENT_LIST_EXCLUDENPC",
     "named": false
   },
   {
@@ -823,6 +819,10 @@
   },
   {
     "type": "AGENT_LIST_REGION",
+    "named": false
+  },
+  {
+    "type": "AGENT_MALE",
     "named": false
   },
   {
@@ -986,6 +986,10 @@
     "named": false
   },
   {
+    "type": "ATTACH_LPEC",
+    "named": false
+  },
+  {
     "type": "ATTACH_LSHOULDER",
     "named": false
   },
@@ -1054,6 +1058,10 @@
     "named": false
   },
   {
+    "type": "ATTACH_RPEC",
+    "named": false
+  },
+  {
     "type": "ATTACH_RSHOULDER",
     "named": false
   },
@@ -1075,6 +1083,18 @@
   },
   {
     "type": "ATTACH_TAIL_TIP",
+    "named": false
+  },
+  {
+    "type": "BEACON_FOCUS_MAP",
+    "named": false
+  },
+  {
+    "type": "BEACON_MAP",
+    "named": false
+  },
+  {
+    "type": "BEACON_SHOW_MAP",
     "named": false
   },
   {
@@ -1198,7 +1218,15 @@
     "named": false
   },
   {
+    "type": "CHANGED_POSITION",
+    "named": false
+  },
+  {
     "type": "CHANGED_REGION",
+    "named": false
+  },
+  {
+    "type": "CHANGED_REGION_RESTART",
     "named": false
   },
   {
@@ -1223,78 +1251,6 @@
   },
   {
     "type": "CHANGED_TEXTURE",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_ACCOUNT_FOR_SKIPPED_FRAMES",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_AVOIDANCE_MODE",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_DESIRED_SPEED",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_DESIRED_TURN_SPEED",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_LENGTH",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_MAX_ACCEL",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_MAX_DECEL",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_MAX_SPEED",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_MAX_TURN_RADIUS",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_ORIENTATION",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_RADIUS",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_STAY_WITHIN_PARCEL",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_TYPE",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_TYPE_A",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_TYPE_B",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_TYPE_C",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_TYPE_D",
-    "named": false
-  },
-  {
-    "type": "CHARACTER_TYPE_NONE",
     "named": false
   },
   {
@@ -1342,6 +1298,42 @@
     "named": false
   },
   {
+    "type": "CONTENT_TYPE_ATOM",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_FORM",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_HTML",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_JSON",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_LLSD",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_RSS",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_TEXT",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_XHTML",
+    "named": false
+  },
+  {
+    "type": "CONTENT_TYPE_XML",
+    "named": false
+  },
+  {
     "type": "CONTROL_BACK",
     "named": false
   },
@@ -1382,10 +1374,6 @@
     "named": false
   },
   {
-    "type": "DAMAGEABLE",
-    "named": false
-  },
-  {
     "type": "DATA_BORN",
     "named": false
   },
@@ -1422,7 +1410,15 @@
     "named": false
   },
   {
+    "type": "DEBUG_CHANNEL",
+    "named": false
+  },
+  {
     "type": "DEG_TO_RAD",
+    "named": false
+  },
+  {
+    "type": "DENSITY",
     "named": false
   },
   {
@@ -1478,123 +1474,11 @@
     "named": false
   },
   {
-    "type": "FORCE_DIRECT_PATH",
+    "type": "FRICTION",
     "named": false
   },
   {
-    "type": "GAME_CONTROL_AXIS_LEFTX",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_AXIS_LEFTY",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_AXIS_RIGHTX",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_AXIS_RIGHTY",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_AXIS_TRIGGERLEFT",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_AXIS_TRIGGERRIGHT",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_A",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_B",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_BACK",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_DPAD_DOWN",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_DPAD_LEFT",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_DPAD_RIGHT",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_DPAD_UP",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_GUIDE",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_LEFTSHOULDER",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_LEFTSTICK",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_MISC1",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_PADDLE1",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_PADDLE2",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_PADDLE3",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_PADDLE4",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_RIGHTSHOULDER",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_RIGHTSTICK",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_START",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_TOUCHPAD",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_X",
-    "named": false
-  },
-  {
-    "type": "GAME_CONTROL_BUTTON_Y",
-    "named": false
-  },
-  {
-    "type": "HORIZONTAL",
-    "named": false
-  },
-  {
-    "type": "HTTP_ACCEPT",
+    "type": "GRAVITY_MULTIPLIER",
     "named": false
   },
   {
@@ -1602,15 +1486,7 @@
     "named": false
   },
   {
-    "type": "HTTP_BODY_TRUNCATED",
-    "named": false
-  },
-  {
     "type": "HTTP_CUSTOM_HEADER",
-    "named": false
-  },
-  {
-    "type": "HTTP_EXTENDED_ERROR",
     "named": false
   },
   {
@@ -1626,15 +1502,55 @@
     "named": false
   },
   {
-    "type": "HTTP_USER_AGENT",
-    "named": false
-  },
-  {
     "type": "HTTP_VERBOSE_THROTTLE",
     "named": false
   },
   {
     "type": "HTTP_VERIFY_CERT",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_AUX1",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_AUX2",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_AUX3",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_EYES",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_HAIR",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_HEAD",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_LEFTARM",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_LEFTLEG",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_LOWER",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_SKIRT",
+    "named": false
+  },
+  {
+    "type": "IMG_USE_BAKED_UPPER",
     "named": false
   },
   {
@@ -1782,11 +1698,19 @@
     "named": false
   },
   {
+    "type": "LAND_LARGE_BRUSH",
+    "named": false
+  },
+  {
     "type": "LAND_LEVEL",
     "named": false
   },
   {
     "type": "LAND_LOWER",
+    "named": false
+  },
+  {
+    "type": "LAND_MEDIUM_BRUSH",
     "named": false
   },
   {
@@ -1802,7 +1726,51 @@
     "named": false
   },
   {
+    "type": "LAND_SMALL_BRUSH",
+    "named": false
+  },
+  {
     "type": "LAND_SMOOTH",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_DELETE",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_EMEMORY",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_ENOKEY",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_EPROTECTED",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_MULTIDELETE",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_NOTFOUND",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_NOUPDATE",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_OK",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_RESET",
+    "named": false
+  },
+  {
+    "type": "LINKSETDATA_UPDATE",
     "named": false
   },
   {
@@ -1874,6 +1842,38 @@
     "named": false
   },
   {
+    "type": "LSL_STATUS_BOUNDS_ERROR",
+    "named": false
+  },
+  {
+    "type": "LSL_STATUS_INTERNAL_ERROR",
+    "named": false
+  },
+  {
+    "type": "LSL_STATUS_MALFORMED_PARAMS",
+    "named": false
+  },
+  {
+    "type": "LSL_STATUS_NOT_FOUND",
+    "named": false
+  },
+  {
+    "type": "LSL_STATUS_NOT_SUPPORTED",
+    "named": false
+  },
+  {
+    "type": "LSL_STATUS_OK",
+    "named": false
+  },
+  {
+    "type": "LSL_STATUS_TYPE_MISMATCH",
+    "named": false
+  },
+  {
+    "type": "LSL_STATUS_WHITELIST_FAILED",
+    "named": false
+  },
+  {
     "type": "MASK_BASE",
     "named": false
   },
@@ -1898,7 +1898,67 @@
     "named": false
   },
   {
+    "type": "NPC",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_CLEAR",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_CONVERSATION",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_FOCUS",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_FREELOOK",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_HOVER",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_IDLE",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_LISTEN",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_MOUSELOOK",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_NONE",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_RESPOND",
+    "named": false
+  },
+  {
+    "type": "NPCLOOKAT_SELECT",
+    "named": false
+  },
+  {
     "type": "NULL_KEY",
+    "named": false
+  },
+  {
+    "type": "OBJECT_ACCOUNT_LEVEL",
+    "named": false
+  },
+  {
+    "type": "OBJECT_ANIMATED_COUNT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_ANIMATED_SLOTS_AVAILABLE",
     "named": false
   },
   {
@@ -1910,15 +1970,35 @@
     "named": false
   },
   {
-    "type": "OBJECT_DAMAGE",
+    "type": "OBJECT_BODY_SHAPE_TYPE",
     "named": false
   },
   {
-    "type": "OBJECT_DAMAGE_TYPE",
+    "type": "OBJECT_CHARACTER_TIME",
     "named": false
   },
   {
-    "type": "OBJECT_HEALTH",
+    "type": "OBJECT_CLICK_ACTION",
+    "named": false
+  },
+  {
+    "type": "OBJECT_CREATION_TIME",
+    "named": false
+  },
+  {
+    "type": "OBJECT_CREATOR",
+    "named": false
+  },
+  {
+    "type": "OBJECT_DESC",
+    "named": false
+  },
+  {
+    "type": "OBJECT_GROUP",
+    "named": false
+  },
+  {
+    "type": "OBJECT_GROUP_TAG",
     "named": false
   },
   {
@@ -1926,7 +2006,31 @@
     "named": false
   },
   {
+    "type": "OBJECT_LAST_OWNER_ID",
+    "named": false
+  },
+  {
+    "type": "OBJECT_LINK_NUMBER",
+    "named": false
+  },
+  {
+    "type": "OBJECT_MASS",
+    "named": false
+  },
+  {
+    "type": "OBJECT_MATERIAL",
+    "named": false
+  },
+  {
+    "type": "OBJECT_NAME",
+    "named": false
+  },
+  {
     "type": "OBJECT_OMEGA",
+    "named": false
+  },
+  {
+    "type": "OBJECT_OWNER",
     "named": false
   },
   {
@@ -1942,7 +2046,19 @@
     "named": false
   },
   {
+    "type": "OBJECT_PHYSICS_COST",
+    "named": false
+  },
+  {
     "type": "OBJECT_POS",
+    "named": false
+  },
+  {
+    "type": "OBJECT_PRIM_COUNT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_PRIM_EQUIVALENCE",
     "named": false
   },
   {
@@ -1950,15 +2066,11 @@
     "named": false
   },
   {
-    "type": "OBJECT_RETURN_PARCEL",
+    "type": "OBJECT_REZZER_KEY",
     "named": false
   },
   {
-    "type": "OBJECT_RETURN_PARCEL_OWNER",
-    "named": false
-  },
-  {
-    "type": "OBJECT_RETURN_REGION",
+    "type": "OBJECT_REZ_TIME",
     "named": false
   },
   {
@@ -1966,7 +2078,75 @@
     "named": false
   },
   {
+    "type": "OBJECT_ROT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_RUNNING_SCRIPT_COUNT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_SCALE",
+    "named": false
+  },
+  {
+    "type": "OBJECT_SCRIPT_MEMORY",
+    "named": false
+  },
+  {
+    "type": "OBJECT_SCRIPT_TIME",
+    "named": false
+  },
+  {
+    "type": "OBJECT_SELECT_COUNT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_SERVER_COST",
+    "named": false
+  },
+  {
+    "type": "OBJECT_SIT_COUNT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_STREAMING_COST",
+    "named": false
+  },
+  {
+    "type": "OBJECT_TEMP_ATTACHED",
+    "named": false
+  },
+  {
     "type": "OBJECT_TEMP_ON_REZ",
+    "named": false
+  },
+  {
+    "type": "OBJECT_TEXT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_TEXT_ALPHA",
+    "named": false
+  },
+  {
+    "type": "OBJECT_TEXT_COLOR",
+    "named": false
+  },
+  {
+    "type": "OBJECT_TOTAL_INVENTORY_COUNT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_TOTAL_SCRIPT_COUNT",
+    "named": false
+  },
+  {
+    "type": "OBJECT_UNKNOWN_DETAIL",
+    "named": false
+  },
+  {
+    "type": "OBJECT_VELOCITY",
     "named": false
   },
   {
@@ -2018,6 +2198,10 @@
     "named": false
   },
   {
+    "type": "OS_APIVERSION",
+    "named": false
+  },
+  {
     "type": "OS_ATTACH_MSG_ALL",
     "named": false
   },
@@ -2042,11 +2226,175 @@
     "named": false
   },
   {
+    "type": "OS_LTPAG_ALGNLV",
+    "named": false
+  },
+  {
+    "type": "OS_LTPAG_FORCEFLY",
+    "named": false
+  },
+  {
+    "type": "OS_LTPAG_FORCENOFLY",
+    "named": false
+  },
+  {
+    "type": "OS_LTPAG_NONE",
+    "named": false
+  },
+  {
+    "type": "OS_LTPAG_USELOOKAT",
+    "named": false
+  },
+  {
+    "type": "OS_LTPAG_USEVEL",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_CREATOR_OWNED",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_FLY",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_LAND_AT_TARGET",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_NOT_OWNED",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_NO_FLY",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_OBJECT_GROUP",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_RUNNING",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_SENSE_AS_AGENT",
+    "named": false
+  },
+  {
+    "type": "OS_NPC_SIT_NOW",
+    "named": false
+  },
+  {
+    "type": "PARCEL_COUNT_GROUP",
+    "named": false
+  },
+  {
+    "type": "PARCEL_COUNT_OTHER",
+    "named": false
+  },
+  {
+    "type": "PARCEL_COUNT_OWNER",
+    "named": false
+  },
+  {
+    "type": "PARCEL_COUNT_SELECTED",
+    "named": false
+  },
+  {
+    "type": "PARCEL_COUNT_TEMP",
+    "named": false
+  },
+  {
+    "type": "PARCEL_COUNT_TOTAL",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_ANY_AVATAR_SOUNDS",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_AREA",
+    "named": false
+  },
+  {
     "type": "PARCEL_DETAILS_CLAIMDATE",
     "named": false
   },
   {
+    "type": "PARCEL_DETAILS_DESC",
+    "named": false
+  },
+  {
     "type": "PARCEL_DETAILS_DWELL",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_FLAGS",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_GEOMETRICCENTER",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_GETCLAIMDATE",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_GROUP",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_GROUP_SOUNDS",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_ID",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_LANDING_LOOKAT",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_LANDING_POINT",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_NAME",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_OWNER",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_PRIM_CAPACITY",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_PRIM_USED",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_SCRIPT_DANGER",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_SEE_AVATARS",
+    "named": false
+  },
+  {
+    "type": "PARCEL_DETAILS_TP_ROUTING",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_ALLOW_ALL_OBJECT_ENTRY",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_ALLOW_CREATE_GROUP_OBJECTS",
     "named": false
   },
   {
@@ -2062,11 +2410,47 @@
     "named": false
   },
   {
+    "type": "PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_ALLOW_GROUP_SCRIPTS",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_ALLOW_LANDMARK",
+    "named": false
+  },
+  {
     "type": "PARCEL_FLAG_ALLOW_SCRIPTS",
     "named": false
   },
   {
     "type": "PARCEL_FLAG_ALLOW_TERRAFORM",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_LOCAL_SOUND_ONLY",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_RESTRICT_PUSHOBJECT",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_USE_ACCESS_GROUP",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_USE_ACCESS_LIST",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_USE_BAN_LIST",
+    "named": false
+  },
+  {
+    "type": "PARCEL_FLAG_USE_LAND_PASS_LIST",
     "named": false
   },
   {
@@ -2083,10 +2467,6 @@
   },
   {
     "type": "PARCEL_MEDIA_COMMAND_LOOP",
-    "named": false
-  },
-  {
-    "type": "PARCEL_MEDIA_COMMAND_LOOP_SET",
     "named": false
   },
   {
@@ -2130,30 +2510,6 @@
     "named": false
   },
   {
-    "type": "PASS_ALWAYS",
-    "named": false
-  },
-  {
-    "type": "PASS_IF_NOT_HANDLED",
-    "named": false
-  },
-  {
-    "type": "PASS_NEVER",
-    "named": false
-  },
-  {
-    "type": "PATROL_PAUSE_AT_WAYPOINTS",
-    "named": false
-  },
-  {
-    "type": "PAYMENT_INFO_ON_FILE",
-    "named": false
-  },
-  {
-    "type": "PAYMENT_INFO_USED",
-    "named": false
-  },
-  {
     "type": "PAY_DEFAULT",
     "named": false
   },
@@ -2166,7 +2522,15 @@
     "named": false
   },
   {
+    "type": "PERMISSION_CHANGE_JOINTS",
+    "named": false
+  },
+  {
     "type": "PERMISSION_CHANGE_LINKS",
+    "named": false
+  },
+  {
+    "type": "PERMISSION_CHANGE_PERMISSIONS",
     "named": false
   },
   {
@@ -2182,7 +2546,11 @@
     "named": false
   },
   {
-    "type": "PERMISSION_PRIVILEGED_LAND_ACCESS",
+    "type": "PERMISSION_RELEASE_OWNERSHIP",
+    "named": false
+  },
+  {
+    "type": "PERMISSION_REMAP_CONTROLS",
     "named": false
   },
   {
@@ -2342,15 +2710,11 @@
     "named": false
   },
   {
-    "type": "PRIM_CLICK_ACTION",
+    "type": "PRIM_CAST_SHADOWS",
     "named": false
   },
   {
     "type": "PRIM_COLOR",
-    "named": false
-  },
-  {
-    "type": "PRIM_DAMAGE",
     "named": false
   },
   {
@@ -2370,18 +2734,6 @@
     "named": false
   },
   {
-    "type": "PRIM_GLTF_ALPHA_MODE_BLEND",
-    "named": false
-  },
-  {
-    "type": "PRIM_GLTF_ALPHA_MODE_MASK",
-    "named": false
-  },
-  {
-    "type": "PRIM_GLTF_ALPHA_MODE_OPAQUE",
-    "named": false
-  },
-  {
     "type": "PRIM_GLTF_BASE_COLOR",
     "named": false
   },
@@ -2395,10 +2747,6 @@
   },
   {
     "type": "PRIM_GLTF_NORMAL",
-    "named": false
-  },
-  {
-    "type": "PRIM_HEALTH",
     "named": false
   },
   {
@@ -2478,6 +2826,18 @@
     "named": false
   },
   {
+    "type": "PRIM_MEDIA_CONTROLS",
+    "named": false
+  },
+  {
+    "type": "PRIM_MEDIA_CONTROLS_MINI",
+    "named": false
+  },
+  {
+    "type": "PRIM_MEDIA_CONTROLS_STANDARD",
+    "named": false
+  },
+  {
     "type": "PRIM_MEDIA_CURRENT_URL",
     "named": false
   },
@@ -2547,6 +2907,10 @@
   },
   {
     "type": "PRIM_PHYSICS",
+    "named": false
+  },
+  {
+    "type": "PRIM_PHYSICS_MATERIAL",
     "named": false
   },
   {
@@ -2750,6 +3114,210 @@
     "named": false
   },
   {
+    "type": "PSYS_PART_BF_DEST_COLOR",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BF_ONE",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BF_ONE_MINUS_DEST_COLOR",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BF_ONE_MINUS_SOURCE_ALPHA",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BF_ONE_MINUS_SOURCE_COLOR",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BF_SOURCE_ALPHA",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BF_SOURCE_COLOR",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BF_ZERO",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BLEND_FUNC_DEST",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BLEND_FUNC_SOURCE",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_BOUNCE_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_EMISSIVE_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_END_ALPHA",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_END_COLOR",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_END_GLOW",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_END_SCALE",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_FLAGS",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_FOLLOW_SRC_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_FOLLOW_VELOCITY_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_INTERP_COLOR_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_INTERP_SCALE_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_MAX_AGE",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_RIBBON_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_START_ALPHA",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_START_COLOR",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_START_GLOW",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_START_SCALE",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_TARGET_LINEAR_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_TARGET_POS_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_PART_WIND_MASK",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_ACCEL",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_ANGLE_BEGIN",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_ANGLE_END",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_BURST_PART_COUNT",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_BURST_RADIUS",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_BURST_RATE",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_BURST_SPEED_MAX",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_BURST_SPEED_MIN",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_INNERANGLE",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_MAX_AGE",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_OMEGA",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_OUTERANGLE",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_PATTERN",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_PATTERN_ANGLE",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_PATTERN_ANGLE_CONE",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_PATTERN_ANGLE_CONE_EMPTY",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_PATTERN_DROP",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_PATTERN_EXPLODE",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_TARGET_KEY",
+    "named": false
+  },
+  {
+    "type": "PSYS_SRC_TEXTURE",
+    "named": false
+  },
+  {
+    "type": "PUBLIC_CHANNEL",
+    "named": false
+  },
+  {
     "type": "RAD_TO_DEG",
     "named": false
   },
@@ -2791,6 +3359,14 @@
   },
   {
     "type": "RC_REJECT_AGENTS",
+    "named": false
+  },
+  {
+    "type": "RC_REJECT_HOST",
+    "named": false
+  },
+  {
+    "type": "RC_REJECT_HOSTGROUP",
     "named": false
   },
   {
@@ -2858,7 +3434,15 @@
     "named": false
   },
   {
+    "type": "RESTITUTION",
+    "named": false
+  },
+  {
     "type": "REVERSE",
+    "named": false
+  },
+  {
+    "type": "REZ_ACCEL",
     "named": false
   },
   {
@@ -2867,6 +3451,78 @@
   },
   {
     "type": "REZ_DAMAGE_TYPE",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAGS",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_BLOCK_GRAB_OBJECT",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_DIE_ON_COLLIDE",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_DIE_ON_NOENTRY",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_NO_COLLIDE_FAMILY",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_NO_COLLIDE_OWNER",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_PHANTOM",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_PHYSICAL",
+    "named": false
+  },
+  {
+    "type": "REZ_FLAG_TEMP",
+    "named": false
+  },
+  {
+    "type": "REZ_LOCK_AXES",
+    "named": false
+  },
+  {
+    "type": "REZ_OMEGA",
+    "named": false
+  },
+  {
+    "type": "REZ_PARAM",
+    "named": false
+  },
+  {
+    "type": "REZ_PARAM_STRING",
+    "named": false
+  },
+  {
+    "type": "REZ_POS",
+    "named": false
+  },
+  {
+    "type": "REZ_ROT",
+    "named": false
+  },
+  {
+    "type": "REZ_SOUND",
+    "named": false
+  },
+  {
+    "type": "REZ_SOUND_COLLIDE",
+    "named": false
+  },
+  {
+    "type": "REZ_VEL",
     "named": false
   },
   {
@@ -2990,7 +3646,47 @@
     "named": false
   },
   {
+    "type": "SIT_FLAG_ALLOW_UNSIT",
+    "named": false
+  },
+  {
+    "type": "SIT_FLAG_NO_COLLIDE",
+    "named": false
+  },
+  {
+    "type": "SIT_FLAG_NO_DAMAGE",
+    "named": false
+  },
+  {
+    "type": "SIT_FLAG_OPENSIMFORCED",
+    "named": false
+  },
+  {
+    "type": "SIT_FLAG_SCRIPTED_ONLY",
+    "named": false
+  },
+  {
+    "type": "SIT_FLAG_SIT_TARGET",
+    "named": false
+  },
+  {
     "type": "SMOOTH",
+    "named": false
+  },
+  {
+    "type": "SOUND_LOOP",
+    "named": false
+  },
+  {
+    "type": "SOUND_PLAY",
+    "named": false
+  },
+  {
+    "type": "SOUND_SYNC",
+    "named": false
+  },
+  {
+    "type": "SOUND_TRIGGER",
     "named": false
   },
   {
@@ -3098,27 +3794,19 @@
     "named": false
   },
   {
-    "type": "STATUS_BOUNDS_ERROR",
+    "type": "STATUS_BLOCK_GRAB",
     "named": false
   },
   {
-    "type": "STATUS_INTERNAL_ERROR",
+    "type": "STATUS_BLOCK_GRAB_OBJECT",
     "named": false
   },
   {
-    "type": "STATUS_MALFORMED_PARAMS",
+    "type": "STATUS_CAST_SHADOWS",
     "named": false
   },
   {
-    "type": "STATUS_NOT_FOUND",
-    "named": false
-  },
-  {
-    "type": "STATUS_NOT_SUPPORTED",
-    "named": false
-  },
-  {
-    "type": "STATUS_OK",
+    "type": "STATUS_DIE_AT_EDGE",
     "named": false
   },
   {
@@ -3127,6 +3815,10 @@
   },
   {
     "type": "STATUS_PHYSICS",
+    "named": false
+  },
+  {
+    "type": "STATUS_RETURN_AT_EDGE",
     "named": false
   },
   {
@@ -3142,11 +3834,7 @@
     "named": false
   },
   {
-    "type": "STATUS_TYPE_MISMATCH",
-    "named": false
-  },
-  {
-    "type": "STATUS_WHITELIST_FAILED",
+    "type": "STATUS_SANDBOX",
     "named": false
   },
   {
@@ -3166,7 +3854,15 @@
     "named": false
   },
   {
+    "type": "TARGETED_EMAIL_ROOT_CREATOR",
+    "named": false
+  },
+  {
     "type": "TEXTURE_BLANK",
+    "named": false
+  },
+  {
+    "type": "TEXTURE_DEFAULT",
     "named": false
   },
   {
@@ -3191,10 +3887,6 @@
   },
   {
     "type": "TOUCH_INVALID_VECTOR",
-    "named": false
-  },
-  {
-    "type": "TRAVERSAL_TYPE",
     "named": false
   },
   {
@@ -3282,10 +3974,6 @@
     "named": false
   },
   {
-    "type": "VEHICLE_FLAG_BLOCK_INTERFERENCE",
-    "named": false
-  },
-  {
     "type": "VEHICLE_FLAG_CAMERA_DECOUPLED",
     "named": false
   },
@@ -3335,6 +4023,10 @@
   },
   {
     "type": "VEHICLE_FLAG_NO_DEFLECTION_UP",
+    "named": false
+  },
+  {
+    "type": "VEHICLE_FLAG_NO_FLY_UP",
     "named": false
   },
   {
@@ -3402,7 +4094,27 @@
     "named": false
   },
   {
+    "type": "VEHICLE_TYPE_AIRPLANE",
+    "named": false
+  },
+  {
+    "type": "VEHICLE_TYPE_BALLOON",
+    "named": false
+  },
+  {
+    "type": "VEHICLE_TYPE_BOAT",
+    "named": false
+  },
+  {
+    "type": "VEHICLE_TYPE_CAR",
+    "named": false
+  },
+  {
     "type": "VEHICLE_TYPE_NONE",
+    "named": false
+  },
+  {
+    "type": "VEHICLE_TYPE_SLED",
     "named": false
   },
   {
@@ -3414,7 +4126,151 @@
     "named": false
   },
   {
-    "type": "VERTICAL",
+    "type": "WL_AMBIENT",
+    "named": false
+  },
+  {
+    "type": "WL_BIG_WAVE_DIRECTION",
+    "named": false
+  },
+  {
+    "type": "WL_BLUE_DENSITY",
+    "named": false
+  },
+  {
+    "type": "WL_BLUR_MULTIPLIER",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_COLOR",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_COVERAGE",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_DETAIL_XY_DENSITY",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_SCALE",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_SCROLL_X",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_SCROLL_X_LOCK",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_SCROLL_Y",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_SCROLL_Y_LOCK",
+    "named": false
+  },
+  {
+    "type": "WL_CLOUD_XY_DENSITY",
+    "named": false
+  },
+  {
+    "type": "WL_DENSITY_MULTIPLIER",
+    "named": false
+  },
+  {
+    "type": "WL_DISTANCE_MULTIPLIER",
+    "named": false
+  },
+  {
+    "type": "WL_DRAW_CLASSIC_CLOUDS",
+    "named": false
+  },
+  {
+    "type": "WL_EAST_ANGLE",
+    "named": false
+  },
+  {
+    "type": "WL_FRESNEL_OFFSET",
+    "named": false
+  },
+  {
+    "type": "WL_FRESNEL_SCALE",
+    "named": false
+  },
+  {
+    "type": "WL_HAZE_DENSITY",
+    "named": false
+  },
+  {
+    "type": "WL_HAZE_HORIZON",
+    "named": false
+  },
+  {
+    "type": "WL_HORIZON",
+    "named": false
+  },
+  {
+    "type": "WL_LITTLE_WAVE_DIRECTION",
+    "named": false
+  },
+  {
+    "type": "WL_MAX_ALTITUDE",
+    "named": false
+  },
+  {
+    "type": "WL_NORMAL_MAP_TEXTURE",
+    "named": false
+  },
+  {
+    "type": "WL_REFLECTION_WAVELET_SCALE",
+    "named": false
+  },
+  {
+    "type": "WL_REFRACT_SCALE_ABOVE",
+    "named": false
+  },
+  {
+    "type": "WL_REFRACT_SCALE_BELOW",
+    "named": false
+  },
+  {
+    "type": "WL_SCENE_GAMMA",
+    "named": false
+  },
+  {
+    "type": "WL_STAR_BRIGHTNESS",
+    "named": false
+  },
+  {
+    "type": "WL_SUN_GLOW_FOCUS",
+    "named": false
+  },
+  {
+    "type": "WL_SUN_GLOW_SIZE",
+    "named": false
+  },
+  {
+    "type": "WL_SUN_MOON_COLOR",
+    "named": false
+  },
+  {
+    "type": "WL_SUN_MOON_POSITION",
+    "named": false
+  },
+  {
+    "type": "WL_UNDERWATER_FOG_MODIFIER",
+    "named": false
+  },
+  {
+    "type": "WL_WATER_COLOR",
+    "named": false
+  },
+  {
+    "type": "WL_WATER_FOG_DENSITY_EXPONENT",
     "named": false
   },
   {
@@ -3491,27 +4347,11 @@
     "named": false
   },
   {
-    "type": "experience_permissions",
-    "named": false
-  },
-  {
-    "type": "experience_permissions_denied",
-    "named": false
-  },
-  {
-    "type": "final_damage",
-    "named": false
-  },
-  {
     "type": "float",
     "named": false
   },
   {
     "type": "for",
-    "named": false
-  },
-  {
-    "type": "game_control",
     "named": false
   },
   {
@@ -3587,15 +4427,7 @@
     "named": false
   },
   {
-    "type": "llAdjustDamage",
-    "named": false
-  },
-  {
     "type": "llAdjustSoundVolume",
-    "named": false
-  },
-  {
-    "type": "llAgentInExperience",
     "named": false
   },
   {
@@ -3671,6 +4503,10 @@
     "named": false
   },
   {
+    "type": "llCastRayV3",
+    "named": false
+  },
+  {
     "type": "llCeil",
     "named": false
   },
@@ -3719,31 +4555,7 @@
     "named": false
   },
   {
-    "type": "llCreateCharacter",
-    "named": false
-  },
-  {
-    "type": "llCreateKeyValue",
-    "named": false
-  },
-  {
     "type": "llCreateLink",
-    "named": false
-  },
-  {
-    "type": "llDamage",
-    "named": false
-  },
-  {
-    "type": "llDataSizeKeyValue",
-    "named": false
-  },
-  {
-    "type": "llDeleteCharacter",
-    "named": false
-  },
-  {
-    "type": "llDeleteKeyValue",
     "named": false
   },
   {
@@ -3760,10 +4572,6 @@
   },
   {
     "type": "llDetachFromAvatar",
-    "named": false
-  },
-  {
-    "type": "llDetectedDamage",
     "named": false
   },
   {
@@ -3792,10 +4600,6 @@
   },
   {
     "type": "llDetectedPos",
-    "named": false
-  },
-  {
-    "type": "llDetectedRezzer",
     "named": false
   },
   {
@@ -3867,23 +4671,7 @@
     "named": false
   },
   {
-    "type": "llEvade",
-    "named": false
-  },
-  {
-    "type": "llExecCharacterCmd",
-    "named": false
-  },
-  {
     "type": "llFabs",
-    "named": false
-  },
-  {
-    "type": "llFindNotecardTextSync",
-    "named": false
-  },
-  {
-    "type": "llFleeFrom",
     "named": false
   },
   {
@@ -3951,10 +4739,6 @@
     "named": false
   },
   {
-    "type": "llGetAttachedListFiltered",
-    "named": false
-  },
-  {
     "type": "llGetBoundingBox",
     "named": false
   },
@@ -3976,10 +4760,6 @@
   },
   {
     "type": "llGetCenterOfMass",
-    "named": false
-  },
-  {
-    "type": "llGetClosestNavPoint",
     "named": false
   },
   {
@@ -4012,18 +4792,6 @@
   },
   {
     "type": "llGetEnv",
-    "named": false
-  },
-  {
-    "type": "llGetEnvironment",
-    "named": false
-  },
-  {
-    "type": "llGetExperienceDetails",
-    "named": false
-  },
-  {
-    "type": "llGetExperienceErrorMessage",
     "named": false
   },
   {
@@ -4331,10 +5099,6 @@
     "named": false
   },
   {
-    "type": "llGetRegionTimeOfDay",
-    "named": false
-  },
-  {
     "type": "llGetRenderMaterial",
     "named": false
   },
@@ -4380,10 +5144,6 @@
   },
   {
     "type": "llGetStartString",
-    "named": false
-  },
-  {
-    "type": "llGetStaticPath",
     "named": false
   },
   {
@@ -4456,10 +5216,6 @@
   },
   {
     "type": "llGetWallclock",
-    "named": false
-  },
-  {
-    "type": "llGiveAgentInventory",
     "named": false
   },
   {
@@ -4552,14 +5308,6 @@
   },
   {
     "type": "llKey2Name",
-    "named": false
-  },
-  {
-    "type": "llKeyCountKeyValue",
-    "named": false
-  },
-  {
-    "type": "llKeysKeyValue",
     "named": false
   },
   {
@@ -4799,10 +5547,6 @@
     "named": false
   },
   {
-    "type": "llMatchGroup",
-    "named": false
-  },
-  {
     "type": "llMessageLinked",
     "named": false
   },
@@ -4827,15 +5571,7 @@
     "named": false
   },
   {
-    "type": "llNavigateTo",
-    "named": false
-  },
-  {
     "type": "llOffsetTexture",
-    "named": false
-  },
-  {
-    "type": "llOpenFloater",
     "named": false
   },
   {
@@ -4883,10 +5619,6 @@
     "named": false
   },
   {
-    "type": "llPatrolPoints",
-    "named": false
-  },
-  {
     "type": "llPlaySound",
     "named": false
   },
@@ -4907,15 +5639,7 @@
     "named": false
   },
   {
-    "type": "llPursue",
-    "named": false
-  },
-  {
     "type": "llPushObject",
-    "named": false
-  },
-  {
-    "type": "llReadKeyValue",
     "named": false
   },
   {
@@ -4975,14 +5699,6 @@
     "named": false
   },
   {
-    "type": "llReplaceAgentEnvironment",
-    "named": false
-  },
-  {
-    "type": "llReplaceEnvironment",
-    "named": false
-  },
-  {
     "type": "llReplaceSubString",
     "named": false
   },
@@ -4992,10 +5708,6 @@
   },
   {
     "type": "llRequestDisplayName",
-    "named": false
-  },
-  {
-    "type": "llRequestExperiencePermissions",
     "named": false
   },
   {
@@ -5048,14 +5760,6 @@
   },
   {
     "type": "llResetTime",
-    "named": false
-  },
-  {
-    "type": "llReturnObjectsByID",
-    "named": false
-  },
-  {
-    "type": "llReturnObjectsByOwner",
     "named": false
   },
   {
@@ -5167,14 +5871,6 @@
     "named": false
   },
   {
-    "type": "llSetAgentEnvironment",
-    "named": false
-  },
-  {
-    "type": "llSetAgentRot",
-    "named": false
-  },
-  {
     "type": "llSetAlpha",
     "named": false
   },
@@ -5219,19 +5915,11 @@
     "named": false
   },
   {
-    "type": "llSetEnvironment",
-    "named": false
-  },
-  {
     "type": "llSetForce",
     "named": false
   },
   {
     "type": "llSetForceAndTorque",
-    "named": false
-  },
-  {
-    "type": "llSetGroundTexture",
     "named": false
   },
   {
@@ -5259,10 +5947,6 @@
     "named": false
   },
   {
-    "type": "llSetLinkGLTFOverrides",
-    "named": false
-  },
-  {
     "type": "llSetLinkMedia",
     "named": false
   },
@@ -5272,10 +5956,6 @@
   },
   {
     "type": "llSetLinkPrimitiveParamsFast",
-    "named": false
-  },
-  {
-    "type": "llSetLinkRenderMaterial",
     "named": false
   },
   {
@@ -5308,10 +5988,6 @@
   },
   {
     "type": "llSetObjectPermMask",
-    "named": false
-  },
-  {
-    "type": "llSetParcelForSale",
     "named": false
   },
   {
@@ -5364,10 +6040,6 @@
   },
   {
     "type": "llSetScriptState",
-    "named": false
-  },
-  {
-    "type": "llSetSculptAnim",
     "named": false
   },
   {
@@ -5439,15 +6111,7 @@
     "named": false
   },
   {
-    "type": "llSignRSA",
-    "named": false
-  },
-  {
     "type": "llSin",
-    "named": false
-  },
-  {
-    "type": "llSitOnLink",
     "named": false
   },
   {
@@ -5579,10 +6243,6 @@
     "named": false
   },
   {
-    "type": "llTransferOwnership",
-    "named": false
-  },
-  {
     "type": "llTriggerSound",
     "named": false
   },
@@ -5599,14 +6259,6 @@
     "named": false
   },
   {
-    "type": "llUpdateCharacter",
-    "named": false
-  },
-  {
-    "type": "llUpdateKeyValue",
-    "named": false
-  },
-  {
     "type": "llVecDist",
     "named": false
   },
@@ -5619,15 +6271,7 @@
     "named": false
   },
   {
-    "type": "llVerifyRSA",
-    "named": false
-  },
-  {
     "type": "llVolumeDetect",
-    "named": false
-  },
-  {
-    "type": "llWanderWithin",
     "named": false
   },
   {
@@ -5695,14 +6339,6 @@
     "named": false
   },
   {
-    "type": "on_damage",
-    "named": false
-  },
-  {
-    "type": "on_death",
-    "named": false
-  },
-  {
     "type": "on_rez",
     "named": false
   },
@@ -5711,15 +6347,15 @@
     "named": false
   },
   {
+    "type": "osAESDecryptFrom",
+    "named": false
+  },
+  {
     "type": "osAESEncrypt",
     "named": false
   },
   {
     "type": "osAESEncryptTo",
-    "named": false
-  },
-  {
-    "type": "osAddAgentToGroup",
     "named": false
   },
   {
@@ -6015,6 +6651,10 @@
     "named": false
   },
   {
+    "type": "osGetLinkColor",
+    "named": false
+  },
+  {
     "type": "osGetLinkInventoryDesc",
     "named": false
   },
@@ -6028,6 +6668,10 @@
   },
   {
     "type": "osGetLinkInventoryKey",
+    "named": false
+  },
+  {
+    "type": "osGetLinkInventoryKeys",
     "named": false
   },
   {
@@ -6187,10 +6831,6 @@
     "named": false
   },
   {
-    "type": "osGrantScriptPermissions",
-    "named": false
-  },
-  {
     "type": "osInviteToGroup",
     "named": false
   },
@@ -6215,15 +6855,7 @@
     "named": false
   },
   {
-    "type": "osLineTo",
-    "named": false
-  },
-  {
     "type": "osLinkParticleSystem",
-    "named": false
-  },
-  {
-    "type": "osList2Double",
     "named": false
   },
   {
@@ -6244,6 +6876,10 @@
   },
   {
     "type": "osListAsVector",
+    "named": false
+  },
+  {
+    "type": "osListFindListNext",
     "named": false
   },
   {
@@ -6407,11 +7043,19 @@
     "named": false
   },
   {
+    "type": "osOldList2ListStrided",
+    "named": false
+  },
+  {
     "type": "osOwnerSaveAppearance",
     "named": false
   },
   {
     "type": "osParcelJoin",
+    "named": false
+  },
+  {
+    "type": "osParcelSetDetails",
     "named": false
   },
   {
@@ -6480,14 +7124,6 @@
   },
   {
     "type": "osResetEnvironment",
-    "named": false
-  },
-  {
-    "type": "osRestartRegion",
-    "named": false
-  },
-  {
-    "type": "osRevokeScriptPermissions",
     "named": false
   },
   {
@@ -6631,6 +7267,10 @@
     "named": false
   },
   {
+    "type": "osSetRot",
+    "named": false
+  },
+  {
     "type": "osSetSitActiveRange",
     "named": false
   },
@@ -6707,6 +7347,10 @@
     "named": false
   },
   {
+    "type": "osSunGetParam",
+    "named": false
+  },
+  {
     "type": "osSunSetParam",
     "named": false
   },
@@ -6723,7 +7367,19 @@
     "named": false
   },
   {
+    "type": "osTemperature2sRGB",
+    "named": false
+  },
+  {
     "type": "osTerrainFlush",
+    "named": false
+  },
+  {
+    "type": "osTerrainGetHeight",
+    "named": false
+  },
+  {
+    "type": "osTerrainSetHeight",
     "named": false
   },
   {
@@ -6755,15 +7411,11 @@
     "named": false
   },
   {
-    "type": "osWindParamGet",
-    "named": false
-  },
-  {
-    "type": "osWindParamSet",
-    "named": false
-  },
-  {
     "type": "path_update",
+    "named": false
+  },
+  {
+    "type": "region_cross",
     "named": false
   },
   {
